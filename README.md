@@ -27,12 +27,14 @@ Every gap gets exactly one category: rounding, wrong scale or unit, sign flipped
 
 ## Pilot-week findings
 
+Results PDFs are not part of the integrated filing record. They come from the board-meeting outcome or financial-results announcement on the same exchange, filed a few hours before the XBRL.
+
 Answered during week 1 (23 to 29 Nov 2026):
 
 1. Are the NSE and BSE copies of the same filing identical? _TBD_
-2. Does the NSE site block scripted downloads? _TBD_
-3. How does the XBRL mark units (the rounding field and the decimals attribute)? _TBD_
-4. How are revised filings listed, and does the original stay visible? _TBD_
+2. Does the NSE site block scripted downloads? From outside a browser, yes: plain scripted requests are refused. Inside a normal browser session, NSE's own listing feeds (`/api/integrated-filing-results`, `/api/corporate-announcements`) return every filing with its file links and timestamps. That is how the pilot file list in `data/download_log_pilot.csv` was built.
+3. How does the XBRL mark units (the rounding field and the decimals attribute)? Each filing has a `LevelOfRounding` field. Decimals handling: _TBD_
+4. How are revised filings listed, and does the original stay visible? A revision is a separate row marked "Revision" with its own timestamp and an optional remarks field. The original stays listed next to it.
 5. How does each company sign exceptional items, and where does the share of associates and joint ventures sit? _TBD_
 6. Time per company in the pilot, and the resulting full-run size (40 or 30): _TBD_
 

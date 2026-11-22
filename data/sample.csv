@@ -1,0 +1,56 @@
+size_group,index_name,draw_order,role,pilot,symbol,company_name,industry,isin
+Large,Nifty 50,1,main,Y,ADANIPORTS,Adani Ports and Special Economic Zone Ltd.,Services,INE742F01042
+Large,Nifty 50,2,main,Y,HCLTECH,HCL Technologies Ltd.,Information Technology,INE860A01027
+Large,Nifty 50,3,main,Y,BAJAJ-AUTO,Bajaj Auto Ltd.,Automobile and Auto Components,INE917I01010
+Large,Nifty 50,4,main,Y,COALINDIA,Coal India Ltd.,Oil Gas & Consumable Fuels,INE522F01014
+Large,Nifty 50,5,main,N,INDIGO,InterGlobe Aviation Ltd.,Services,INE646L01027
+Large,Nifty 50,6,main,N,ETERNAL,Eternal Ltd.,Consumer Services,INE758T01015
+Large,Nifty 50,7,main,N,MARUTI,Maruti Suzuki India Ltd.,Automobile and Auto Components,INE585B01010
+Large,Nifty 50,8,main,N,TECHM,Tech Mahindra Ltd.,Information Technology,INE669C01036
+Large,Nifty 50,9,main,N,POWERGRID,Power Grid Corporation of India Ltd.,Power,INE752E01010
+Large,Nifty 50,10,main,N,BEL,Bharat Electronics Ltd.,Capital Goods,INE263A01024
+Large,Nifty 50,11,main,N,GRASIM,Grasim Industries Ltd.,Construction Materials,INE047A01021
+Large,Nifty 50,12,main,N,M&M,Mahindra & Mahindra Ltd.,Automobile and Auto Components,INE101A01026
+Large,Nifty 50,13,main,N,EICHERMOT,Eicher Motors Ltd.,Automobile and Auto Components,INE066A01021
+Large,Nifty 50,14,main,N,JSWSTEEL,JSW Steel Ltd.,Metals & Mining,INE019A01038
+Large,Nifty 50,15,main,N,TRENT,Trent Ltd.,Consumer Services,INE849A01020
+Large,Nifty 50,16,spare,N,RELIANCE,Reliance Industries Ltd.,Oil Gas & Consumable Fuels,INE002A01018
+Large,Nifty 50,17,spare,N,DRREDDY,Dr. Reddy's Laboratories Ltd.,Healthcare,INE089A01031
+Large,Nifty 50,18,spare,N,ASIANPAINT,Asian Paints Ltd.,Consumer Durables,INE021A01026
+Large,Nifty 50,19,spare,N,APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,Healthcare,INE437A01024
+Large,Nifty 50,20,spare,N,ADANIENT,Adani Enterprises Ltd.,Metals & Mining,INE423A01024
+Mid,Nifty Midcap 150,1,main,Y,GVT&D,GE Vernova T&D India Ltd.,Capital Goods,INE200A01026
+Mid,Nifty Midcap 150,2,main,Y,CONCOR,Container Corporation of India Ltd.,Services,INE111A01025
+Mid,Nifty Midcap 150,3,main,Y,AJANTPHARM,Ajanta Pharmaceuticals Ltd.,Healthcare,INE031B01049
+Mid,Nifty Midcap 150,4,main,N,SWIGGY,Swiggy Ltd.,Consumer Services,INE00H001014
+Mid,Nifty Midcap 150,5,main,N,PREMIERENE,Premier Energies Ltd.,Capital Goods,INE0BS701011
+Mid,Nifty Midcap 150,6,main,N,LAURUSLABS,Laurus Labs Ltd.,Healthcare,INE947Q01028
+Mid,Nifty Midcap 150,7,main,N,LTTS,L&T Technology Services Ltd.,Information Technology,INE010V01017
+Mid,Nifty Midcap 150,8,main,N,BLUESTARCO,Blue Star Ltd.,Consumer Durables,INE472A01039
+Mid,Nifty Midcap 150,9,main,N,PRESTIGE,Prestige Estates Projects Ltd.,Realty,INE811K01011
+Mid,Nifty Midcap 150,10,main,N,PIIND,PI Industries Ltd.,Chemicals,INE603J01030
+Mid,Nifty Midcap 150,11,main,N,NYKAA,FSN E-Commerce Ventures Ltd.,Consumer Services,INE388Y01029
+Mid,Nifty Midcap 150,12,main,N,TIINDIA,Tube Investments of India Ltd.,Automobile and Auto Components,INE974X01010
+Mid,Nifty Midcap 150,13,main,N,UNITDSPR,United Spirits Ltd.,Fast Moving Consumer Goods,INE854D01024
+Mid,Nifty Midcap 150,14,main,N,FORTIS,Fortis Healthcare Ltd.,Healthcare,INE061F01013
+Mid,Nifty Midcap 150,15,main,N,LUPIN,Lupin Ltd.,Healthcare,INE326A01037
+Mid,Nifty Midcap 150,16,spare,N,COROMANDEL,Coromandel International Ltd.,Chemicals,INE169A01031
+Mid,Nifty Midcap 150,17,spare,N,SAIL,Steel Authority of India Ltd.,Metals & Mining,INE114A01011
+Mid,Nifty Midcap 150,18,spare,N,PERSISTENT,Persistent Systems Ltd.,Information Technology,INE262H01021
+Mid,Nifty Midcap 150,19,spare,N,VMM,Vishal Mega Mart Ltd.,Consumer Services,INE01EA01019
+Mid,Nifty Midcap 150,20,spare,N,IPCALAB,Ipca Laboratories Ltd.,Healthcare,INE571A01038
+Small,Nifty Smallcap 250,1,main,Y,WELSPUNLIV,Welspun Living Ltd.,Textiles,INE192B01031
+Small,Nifty Smallcap 250,2,main,Y,FSL,Firstsource Solutions Ltd.,Services,INE684F01012
+Small,Nifty Smallcap 250,3,main,Y,EMAMILTD,Emami Ltd.,Fast Moving Consumer Goods,INE548C01032
+Small,Nifty Smallcap 250,4,main,N,RUBICON,Rubicon Research Ltd.,Healthcare,INE506V01022
+Small,Nifty Smallcap 250,5,main,N,GALLANTT,Gallantt Ispat Ltd.,Capital Goods,INE297H01019
+Small,Nifty Smallcap 250,6,main,N,ACC,ACC Ltd.,Construction Materials,INE012A01025
+Small,Nifty Smallcap 250,7,main,N,VISL,Vedanta Iron and Steel Ltd.,Metals & Mining,INE1CLE01013
+Small,Nifty Smallcap 250,8,main,N,VEDPOWER,Vedanta Power Ltd.,Power,INE694L01019
+Small,Nifty Smallcap 250,9,main,N,AFFLE,Affle 3i Ltd.,Information Technology,INE00WC01027
+Small,Nifty Smallcap 250,10,main,N,AFCONS,Afcons Infrastructure Ltd.,Construction,INE101I01011
+Small,Nifty Smallcap 250,11,spare,N,BELRISE,Belrise Industries Ltd.,Automobile and Auto Components,INE894V01022
+Small,Nifty Smallcap 250,12,spare,N,INDIAMART,Indiamart Intermesh Ltd.,Consumer Services,INE933S01016
+Small,Nifty Smallcap 250,13,spare,N,CARBORUNIV,Carborundum Universal Ltd.,Capital Goods,INE120A01034
+Small,Nifty Smallcap 250,14,spare,N,IKS,Inventurus Knowledge Solutions Ltd.,Information Technology,INE115Q01022
+Small,Nifty Smallcap 250,15,spare,N,TBOTEK,TBO Tek Ltd.,Consumer Services,INE673O01025

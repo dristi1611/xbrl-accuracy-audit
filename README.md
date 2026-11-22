@@ -12,6 +12,8 @@ Data firms and banks load XBRL straight into their databases, so a wrong unit or
 - Drawn at random with a fixed seed (`random.seed(2026)`) by `scripts/draw_sample.py`. Run the script on the same index lists and you get the same companies.
 - Excluded: the whole "Financial Services" industry as NSE tags it. Banks, NBFCs and insurers file results in a different format, so their line items don't compare with other companies'. Dropping the whole industry also removes a few exchanges and brokers that file in the normal format. The upside is one rule that needs no company-by-company judgement.
 - 5 spare names per size group, used in draw order if a filing is missing.
+- Index lists downloaded from niftyindices.com on 22 Nov 2026 (`data/index_lists/`). Eligible after exclusions: Nifty 50, 38 of 50; Midcap 150, 113 of 150; Smallcap 250, 213 of 251 (the list held 251 names on the download date).
+- Pilot (week 1): the first 4 large, 3 mid and 3 small names in draw order (`pilot = Y` in `data/sample.csv`).
 
 ## Checks
 

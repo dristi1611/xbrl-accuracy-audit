@@ -1,0 +1,20 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+FSL,standalone,revenue_from_operations,9395.45,9134.42,6915.85,18529.87,millions,13,"native text PDF"
+FSL,standalone,other_operating_income,-217.88,-343.53,-165.54,-561.41,millions,13,"EXTRA LINE (not one of the 9): 'Other operating income, net', between revenue and other income"
+FSL,standalone,other_income,114.27,149.58,100.06,263.85,millions,13,
+FSL,standalone,total_income,9291.84,8940.47,6850.37,18232.31,millions,13,"= revenue + other operating income + other income"
+FSL,standalone,total_expenses,6664.93,6274.96,5672.54,12939.89,millions,13,
+FSL,standalone,exceptional_items,0,0,0,0,millions,13,"dash in all four columns"
+FSL,standalone,profit_before_tax,2626.91,2665.51,1177.83,5292.42,millions,13,"'Profit from ordinary activities before tax'"
+FSL,standalone,net_profit,1994.14,2067.91,980.45,4062.05,millions,13,
+FSL,standalone,basic_eps,2.88,2.99,1.42,5.88,rupees,13,
+FSL,consolidated,revenue_from_operations,28306.37,27517.51,23146.95,55823.88,millions,6,"native text PDF"
+FSL,consolidated,other_operating_income,-50.38,-268.75,-24.83,-319.13,millions,6,"EXTRA LINE (not one of the 9): 'Other operating income, net'"
+FSL,consolidated,other_income,-17.94,61.10,-12.86,43.16,millions,6,"'Other income, net' is negative this quarter"
+FSL,consolidated,total_income,28238.05,27309.86,23109.26,55547.91,millions,6,"= revenue + other operating income + other income"
+FSL,consolidated,total_expenses,25244.55,24399.59,20885.03,49644.14,millions,6,
+FSL,consolidated,share_of_associates_jv,0,0,0,0,millions,6,"dash in all four columns; shown above PBT"
+FSL,consolidated,exceptional_items,0,-716.86,19.11,-716.86,millions,6,"printed as 'net expense/(income)': 716.86 expense in Q1, (19.11) income a year ago"
+FSL,consolidated,profit_before_tax,2993.50,2193.41,2243.34,5186.91,millions,6,
+FSL,consolidated,net_profit,2324.40,1659.17,1795.13,3983.57,millions,6,
+FSL,consolidated,basic_eps,3.37,2.40,2.60,5.77,rupees,6,

@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+ADANIPORTS,standalone,revenue_from_operations,2284.28,2244.08,2061.05,4528.36,crores,19,"Sep-2025 columns marked * in the PDF"
+ADANIPORTS,standalone,other_income,759.78,1259.74,1033.20,2019.52,crores,19,
+ADANIPORTS,standalone,total_income,3044.06,3503.82,3094.25,6547.88,crores,19,
+ADANIPORTS,standalone,total_expenses,1789.64,1620.26,2407.91,3409.90,crores,19,
+ADANIPORTS,standalone,exceptional_items,0,0,0,0,crores,19,"dash in all four columns"
+ADANIPORTS,standalone,profit_before_tax,1254.42,1883.56,686.34,3137.98,crores,19,
+ADANIPORTS,standalone,net_profit,940.97,1557.49,572.09,2498.46,crores,19,
+ADANIPORTS,standalone,basic_eps,4.08,6.76,2.65,10.84,rupees,19,"basic and diluted shown as one line"
+ADANIPORTS,consolidated,revenue_from_operations,11340.40,10820.80,9167.46,22161.20,crores,12,"PDF has an OCR text layer with misreads; values read from the page image"
+ADANIPORTS,consolidated,other_income,269.37,852.91,836.60,1122.28,crores,12,
+ADANIPORTS,consolidated,total_income,11609.77,11673.71,10004.06,23283.48,crores,12,
+ADANIPORTS,consolidated,total_expenses,7252.76,7078.64,6103.59,14331.40,crores,12,
+ADANIPORTS,consolidated,share_of_associates_jv,139.51,-287.76,-210.19,-148.25,crores,12,"shown above PBT (line 4)"
+ADANIPORTS,consolidated,exceptional_items,-30.76,0,0,-30.76,crores,12,"printed as (30.76) and added in 'PBT (5+6)', i.e. a loss"
+ADANIPORTS,consolidated,profit_before_tax,4465.76,4307.31,3690.28,8773.07,crores,12,"includes share of JVs"
+ADANIPORTS,consolidated,net_profit,3682.44,3649.50,3120.20,7331.94,crores,12,
+ADANIPORTS,consolidated,basic_eps,15.72,15.71,14.39,31.43,rupees,12,"basic and diluted shown as one line"

@@ -1,0 +1,9 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+GVTD,standalone,revenue_from_operations,20269.8,18361.4,15384.6,38631.2,millions,2,"Rs million to 1 decimal; company has no consolidated results"
+GVTD,standalone,other_income,503.3,418.4,186.3,921.7,millions,2,
+GVTD,standalone,total_income,20773.1,18779.8,15570.9,39552.9,millions,2,
+GVTD,standalone,total_expenses,14973.1,13908.5,11558.2,28881.6,millions,2,
+GVTD,standalone,exceptional_items,0,0,0,0,millions,2,"printed as (credit)/charge; dash in all four columns"
+GVTD,standalone,profit_before_tax,5800.0,4871.3,4012.7,10671.3,millions,2,
+GVTD,standalone,net_profit,4313.9,3629.9,2994.8,7943.8,millions,2,
+GVTD,standalone,basic_eps,16.84,14.18,11.70,31.02,rupees,2,"basic and diluted shown as one line"

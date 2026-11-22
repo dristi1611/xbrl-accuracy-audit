@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+WELSPUNLIV,standalone,revenue_from_operations,2163.43,2083.08,1843.23,4246.51,crores,15,"PDF has an OCR text layer with misreads (e.g. 4248.51); values read from the page image"
+WELSPUNLIV,standalone,other_income,54.85,85.85,172.51,140.70,crores,15,
+WELSPUNLIV,standalone,total_income,2218.28,2168.93,2015.74,4387.21,crores,15,
+WELSPUNLIV,standalone,total_expenses,2074.35,1977.73,1869.54,4052.08,crores,15,
+WELSPUNLIV,standalone,exceptional_items,-7.16,0,0,-7.16,crores,15,"printed as 7.16 and subtracted in 'PBT (3-4)' (Vapi plant flood), i.e. a loss"
+WELSPUNLIV,standalone,profit_before_tax,136.77,191.20,146.20,327.97,crores,15,
+WELSPUNLIV,standalone,net_profit,108.67,155.73,147.73,264.40,crores,15,
+WELSPUNLIV,standalone,basic_eps,1.15,1.63,1.55,2.79,rupees,15,"basic EPS after exceptional items (PDF also shows before-exceptional EPS)"
+WELSPUNLIV,consolidated,revenue_from_operations,2838.12,2795.45,2440.91,5633.57,crores,8,"OCR text layer; values read from the page image"
+WELSPUNLIV,consolidated,other_income,31.78,32.71,14.75,64.49,crores,8,
+WELSPUNLIV,consolidated,total_income,2869.90,2828.16,2455.66,5698.06,crores,8,
+WELSPUNLIV,consolidated,total_expenses,2636.77,2609.15,2431.84,5245.92,crores,8,
+WELSPUNLIV,consolidated,share_of_associates_jv,-0.15,1.35,0,1.20,crores,8,"shown above PBT (line 4)"
+WELSPUNLIV,consolidated,exceptional_items,-7.16,0,0,-7.16,crores,8,"printed as 7.16 and subtracted in 'PBT (5-6)', i.e. a loss"
+WELSPUNLIV,consolidated,profit_before_tax,225.82,220.36,23.82,446.18,crores,8,"after exceptional items; includes share of associate"
+WELSPUNLIV,consolidated,net_profit,169.66,162.61,14.86,332.27,crores,8,
+WELSPUNLIV,consolidated,basic_eps,1.80,1.69,0.13,3.49,rupees,8,"basic EPS after exceptional items"

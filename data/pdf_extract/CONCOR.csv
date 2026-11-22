@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+CONCOR,standalone,revenue_from_operations,2373.21,2154.04,2351.36,4527.25,crores,7,"scanned page"
+CONCOR,standalone,other_income,93.67,93.87,95.89,187.54,crores,7,
+CONCOR,standalone,total_income,2466.88,2247.91,2447.25,4714.79,crores,7,
+CONCOR,standalone,total_expenses,2004.97,1883.30,1942.96,3888.27,crores,7,
+CONCOR,standalone,exceptional_items,0,0,0,0,crores,7,"dash in all four columns"
+CONCOR,standalone,profit_before_tax,461.91,364.61,504.29,826.52,crores,7,
+CONCOR,standalone,net_profit,347.16,277.65,376.75,624.81,crores,7,
+CONCOR,standalone,basic_eps,4.56,3.65,4.95,8.20,rupees,7,
+CONCOR,consolidated,revenue_from_operations,2378.57,2159.76,2354.53,4538.33,crores,7,"scanned page"
+CONCOR,consolidated,other_income,84.82,85.50,87.71,170.32,crores,7,
+CONCOR,consolidated,total_income,2463.39,2245.26,2442.24,4708.65,crores,7,
+CONCOR,consolidated,total_expenses,2009.25,1885.15,1944.66,3894.40,crores,7,
+CONCOR,consolidated,share_of_associates_jv,15.91,-3.56,11.00,12.35,crores,7,"shown after tax (line 10), same place as the XBRL taxonomy"
+CONCOR,consolidated,exceptional_items,0,0,0,0,crores,7,"dash in all four columns"
+CONCOR,consolidated,profit_before_tax,454.14,360.11,497.58,814.25,crores,7,"excludes share of JVs"
+CONCOR,consolidated,net_profit,353.66,268.90,379.98,622.56,crores,7,
+CONCOR,consolidated,basic_eps,4.64,3.53,4.99,8.17,rupees,7,

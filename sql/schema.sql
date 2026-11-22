@@ -72,10 +72,21 @@ CREATE TABLE IF NOT EXISTS figures (
                         'previous_year')),            -- FY26 (PDF only)
     value_reported  REAL,                        -- as printed, in the filing's unit (EPS in rupees per share)
     value_inr       REAL,                        -- converted to rupees (EPS left as is)
+    tolerance_inr   REAL,                        -- half of one printed unit, in rupees (rounding allowance)
     extracted_by    TEXT NOT NULL CHECK (extracted_by IN ('xbrl_parser', 'ai_pdf', 'hand')),
     checked_by_eye  INTEGER NOT NULL DEFAULT 0 CHECK (checked_by_eye IN (0, 1)),
     note            TEXT,
     UNIQUE (filing_id, line_item, column_period)
+);
+
+-- Where each company's PDF puts the share of associates/JVs. The SEBI XBRL
+-- taxonomy adds it after tax, so XBRL ProfitBeforeTax excludes it. If the PDF
+-- adds it above PBT, check 1 adds it back to the XBRL figure before comparing.
+CREATE TABLE IF NOT EXISTS presentation (
+    company_id        INTEGER NOT NULL REFERENCES companies(company_id),
+    basis             TEXT NOT NULL,
+    associates_in_pbt INTEGER NOT NULL CHECK (associates_in_pbt IN (0, 1)),
+    PRIMARY KEY (company_id, basis)
 );
 
 CREATE TABLE IF NOT EXISTS error_log (

@@ -1,0 +1,10 @@
+line_item,xbrl_tag,note
+revenue_from_operations,RevenueFromOperations,
+other_income,OtherIncome,
+total_income,Income,
+total_expenses,Expenses,
+exceptional_items,ExceptionalItemsBeforeTax,"Sign as filed: a loss is a negative number in the XBRL"
+share_of_associates_jv,ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod,"Consolidated only. The SEBI taxonomy adds this AFTER tax, so XBRL ProfitBeforeTax excludes it"
+profit_before_tax,ProfitBeforeTax,"Excludes share of associates/JVs in the XBRL (see above); many PDFs include it"
+net_profit,ProfitLossForPeriod,"Profit for the period, before splitting between owners and non-controlling interests"
+basic_eps,BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations,"Rupees per share, not scaled"

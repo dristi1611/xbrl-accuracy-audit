@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+EMAMILTD,standalone,revenue_from_operations,69820,77992,60447,147812,lakhs,14,"printed in whole lakhs"
+EMAMILTD,standalone,other_income,2289,5318,5385,7607,lakhs,14,
+EMAMILTD,standalone,total_income,72109,83310,65832,155419,lakhs,14,
+EMAMILTD,standalone,total_expenses,53890,59950,47747,113840,lakhs,14,"DERIVED: EBITDA-format statement; printed 'Total Expenses' (50301/56448/43685/106749) excludes finance costs and D&A, which are added here"
+EMAMILTD,standalone,exceptional_items,0,0,0,0,lakhs,14,"dash in all four columns"
+EMAMILTD,standalone,profit_before_tax,18219,23360,18085,41579,lakhs,14,
+EMAMILTD,standalone,net_profit,13646,18222,18234,31868,lakhs,14,
+EMAMILTD,standalone,basic_eps,3.13,4.17,4.17,7.30,rupees,14,
+EMAMILTD,consolidated,revenue_from_operations,108765,103921,79851,212686,lakhs,8,"printed in whole lakhs"
+EMAMILTD,consolidated,other_income,2295,1850,2137,4145,lakhs,8,
+EMAMILTD,consolidated,total_income,111060,105771,81988,216831,lakhs,8,
+EMAMILTD,consolidated,total_expenses,91670,86140,66788,177810,lakhs,8,"DERIVED: printed 'Total Expenses' (86533/81303/61998/167836) excludes finance costs and D&A, which are added here"
+EMAMILTD,consolidated,share_of_associates_jv,-28,-160,-182,-188,lakhs,8,"'Share of Loss of Associates', shown above PBT"
+EMAMILTD,consolidated,exceptional_items,0,0,0,0,lakhs,8,"dash in all four columns"
+EMAMILTD,consolidated,profit_before_tax,19362,19471,15018,38833,lakhs,8,"includes share of associates"
+EMAMILTD,consolidated,net_profit,14550,13894,14835,28444,lakhs,8,
+EMAMILTD,consolidated,basic_eps,3.30,3.15,3.40,6.45,rupees,8,

@@ -1,0 +1,41 @@
+symbol,size_group,basis,line_item,column_period,xbrl_inr,pdf_inr,gap_inr,tol_inr,pbt_adjusted,pdf_note,status
+COALINDIA,Large,consolidated,basic_eps,current_quarter,,10.57,,0.005,0,page 8,missing_in_xbrl
+COALINDIA,Large,consolidated,exceptional_items,current_quarter,,0.0,,50000.0,0,page 7; no exceptional line in the statement,missing_in_xbrl
+COALINDIA,Large,consolidated,net_profit,current_quarter,,65474300000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,other_income,current_quarter,,26539900000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,profit_before_tax,current_quarter,,87283000000.0,,50000.0,0,page 7; includes share of JVs,missing_in_xbrl
+COALINDIA,Large,consolidated,revenue_from_operations,current_quarter,,441787400000.0,,50000.0,0,page 7; scanned page,missing_in_xbrl
+COALINDIA,Large,consolidated,share_of_associates_jv,current_quarter,,2940100000.0,,50000.0,0,"page 7; 'Share of Joint Venture Profit', shown above PBT (line 6)",missing_in_xbrl
+COALINDIA,Large,consolidated,total_expenses,current_quarter,,383984400000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,total_income,current_quarter,,468327300000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,standalone,basic_eps,current_quarter,,14.55,,0.005,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,exceptional_items,current_quarter,,0.0,,50000.0,0,page 16; no exceptional line in the statement,missing_in_xbrl
+COALINDIA,Large,standalone,net_profit,current_quarter,,89677200000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,other_income,current_quarter,,90003200000.0,,50000.0,0,page 16; Q2 other income is mostly dividends from subsidiaries,missing_in_xbrl
+COALINDIA,Large,standalone,profit_before_tax,current_quarter,,89955300000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,revenue_from_operations,current_quarter,,3046000000.0,,50000.0,0,page 16; scanned page,missing_in_xbrl
+COALINDIA,Large,standalone,total_expenses,current_quarter,,3093900000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,total_income,current_quarter,,93049200000.0,,50000.0,0,page 16,missing_in_xbrl
+EMAMILTD,Small,consolidated,basic_eps,current_quarter,,3.3,,0.005,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,exceptional_items,current_quarter,,0.0,,50000.0,0,page 8; dash in all four columns,missing_in_xbrl
+EMAMILTD,Small,consolidated,net_profit,current_quarter,,1455000000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,other_income,current_quarter,,229500000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,profit_before_tax,current_quarter,,1936200000.0,,50000.0,0,page 8; includes share of associates,missing_in_xbrl
+EMAMILTD,Small,consolidated,revenue_from_operations,current_quarter,,10876500000.0,,50000.0,0,page 8; printed in whole lakhs,missing_in_xbrl
+EMAMILTD,Small,consolidated,share_of_associates_jv,current_quarter,,-2800000.0,,50000.0,0,"page 8; 'Share of Loss of Associates', shown above PBT",missing_in_xbrl
+EMAMILTD,Small,consolidated,total_expenses,current_quarter,,9167000000.0,,50000.0,0,"page 8; DERIVED: printed 'Total Expenses' (86533/81303/61998/167836) excludes finance costs and D&A, which are added here",missing_in_xbrl
+EMAMILTD,Small,consolidated,total_income,current_quarter,,11106000000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,standalone,basic_eps,current_quarter,,3.13,,0.005,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,exceptional_items,current_quarter,,0.0,,50000.0,0,page 14; dash in all four columns,missing_in_xbrl
+EMAMILTD,Small,standalone,net_profit,current_quarter,,1364600000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,other_income,current_quarter,,228900000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,profit_before_tax,current_quarter,,1821900000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,revenue_from_operations,current_quarter,,6982000000.0,,50000.0,0,page 14; printed in whole lakhs,missing_in_xbrl
+EMAMILTD,Small,standalone,total_expenses,current_quarter,,5389000000.0,,50000.0,0,"page 14; DERIVED: EBITDA-format statement; printed 'Total Expenses' (50301/56448/43685/106749) excludes finance costs and D&A, which are added here",missing_in_xbrl
+EMAMILTD,Small,standalone,total_income,current_quarter,,7210900000.0,,50000.0,0,page 14,missing_in_xbrl
+FSL,Small,consolidated,revenue_from_operations,current_half_year,55504750000.0,55823880000.0,-319130000.0,5000.0,0,page 6; native text PDF,gap
+FSL,Small,consolidated,revenue_from_operations,current_quarter,28255990000.0,28306370000.0,-50380000.0,5000.0,0,page 6; native text PDF,gap
+FSL,Small,standalone,revenue_from_operations,current_half_year,17968460000.0,18529870000.0,-561410000.0,5000.0,0,page 13; native text PDF,gap
+FSL,Small,standalone,revenue_from_operations,current_quarter,9177570000.0,9395450000.0,-217880000.0,5000.0,0,page 13; native text PDF,gap
+WELSPUNLIV,Small,consolidated,basic_eps,current_half_year,3.55,3.49,0.05999999999999961,0.005,0,page 8; basic EPS after exceptional items,gap
+WELSPUNLIV,Small,consolidated,basic_eps,current_quarter,1.86,1.8,0.06000000000000005,0.005,0,page 8; basic EPS after exceptional items,gap

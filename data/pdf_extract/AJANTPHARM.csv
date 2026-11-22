@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+AJANTPHARM,standalone,revenue_from_operations,1725.07,1488.67,1220.24,3213.74,crores,10,
+AJANTPHARM,standalone,other_income,52.62,70.82,75.03,123.44,crores,10,
+AJANTPHARM,standalone,total_income,1777.69,1559.49,1295.27,3337.18,crores,10,
+AJANTPHARM,standalone,total_expenses,1255.07,1136.04,973.30,2391.11,crores,10,
+AJANTPHARM,standalone,exceptional_items,0,0,0,0,crores,10,"no exceptional line in the statement"
+AJANTPHARM,standalone,profit_before_tax,522.62,423.45,321.97,946.07,crores,10,
+AJANTPHARM,standalone,net_profit,379.89,315.47,249.53,695.36,crores,10,
+AJANTPHARM,standalone,basic_eps,30.40,25.25,19.98,55.65,rupees,10,
+AJANTPHARM,consolidated,revenue_from_operations,1794.16,1625.96,1353.73,3420.12,crores,5,
+AJANTPHARM,consolidated,other_income,37.39,70.90,59.34,108.29,crores,5,
+AJANTPHARM,consolidated,total_income,1831.55,1696.86,1413.07,3528.41,crores,5,
+AJANTPHARM,consolidated,total_expenses,1296.40,1250.06,1072.26,2546.46,crores,5,
+AJANTPHARM,consolidated,share_of_associates_jv,0,0,0,0,crores,5,"no associates or JVs (wholly owned subsidiaries only)"
+AJANTPHARM,consolidated,exceptional_items,0,0,0,0,crores,5,"no exceptional line in the statement"
+AJANTPHARM,consolidated,profit_before_tax,535.15,446.80,340.81,981.95,crores,5,
+AJANTPHARM,consolidated,net_profit,388.14,334.22,260.19,722.36,crores,5,
+AJANTPHARM,consolidated,basic_eps,31.07,26.75,20.83,57.81,rupees,5,

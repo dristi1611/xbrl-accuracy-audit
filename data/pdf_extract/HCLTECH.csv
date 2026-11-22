@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+HCLTECH,standalone,revenue_from_operations,15445,14337,13829,29782,crores,6,"printed in whole crores"
+HCLTECH,standalone,other_income,653,4401,325,5054,crores,6,
+HCLTECH,standalone,total_income,16098,18738,14154,34836,crores,6,
+HCLTECH,standalone,total_expenses,11033,10753,10235,21786,crores,6,
+HCLTECH,standalone,exceptional_items,0,0,0,0,crores,6,"dash in all four columns"
+HCLTECH,standalone,profit_before_tax,5065,7985,3919,13050,crores,6,
+HCLTECH,standalone,net_profit,4302,7025,2657,11327,crores,6,
+HCLTECH,standalone,basic_eps,15.89,25.96,9.81,41.85,rupees,6,
+HCLTECH,consolidated,revenue_from_operations,35620,34579,31942,70199,crores,2,"printed in whole crores"
+HCLTECH,consolidated,other_income,234,361,415,595,crores,2,
+HCLTECH,consolidated,total_income,35854,34940,32357,70794,crores,2,
+HCLTECH,consolidated,total_expenses,29349,28832,26655,58181,crores,2,
+HCLTECH,consolidated,share_of_associates_jv,-38,0,0,-38,crores,2,"'Share of loss of an associate', shown above PBT"
+HCLTECH,consolidated,exceptional_items,0,0,0,0,crores,2,"dash in all four columns"
+HCLTECH,consolidated,profit_before_tax,6467,6108,5702,12575,crores,2,"includes share of associate"
+HCLTECH,consolidated,net_profit,5132,4626,4236,9758,crores,2,
+HCLTECH,consolidated,basic_eps,18.96,17.09,15.63,36.05,rupees,2,

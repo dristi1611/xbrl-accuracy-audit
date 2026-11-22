@@ -1,0 +1,323 @@
+symbol,size_group,basis,line_item,column_period,xbrl_inr,pdf_inr,gap_inr,tol_inr,pbt_adjusted,pdf_note,status
+ADANIPORTS,Large,consolidated,basic_eps,current_half_year,31.43,31.43,0.0,0.005,0,page 12; basic and diluted shown as one line,match
+ADANIPORTS,Large,consolidated,exceptional_items,current_half_year,-307600000.0,-307600000.0,0.0,50000.0,0,"page 12; printed as (30.76) and added in 'PBT (5+6)', i.e. a loss",match
+ADANIPORTS,Large,consolidated,net_profit,current_half_year,73319400000.0,73319400000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,other_income,current_half_year,11222800000.0,11222800000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,profit_before_tax,current_half_year,87730700000.0,87730700000.0,0.0,50000.0,1,page 12; includes share of JVs,match
+ADANIPORTS,Large,consolidated,revenue_from_operations,current_half_year,221612000000.0,221612000000.0,0.0,500000.0,0,page 12; PDF has an OCR text layer with misreads; values read from the page image,match
+ADANIPORTS,Large,consolidated,share_of_associates_jv,current_half_year,-1482500000.0,-1482500000.0,0.0,50000.0,0,page 12; shown above PBT (line 4),match
+ADANIPORTS,Large,consolidated,total_expenses,current_half_year,143314000000.0,143314000000.0,0.0,500000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,total_income,current_half_year,232834800000.0,232834800000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,basic_eps,current_quarter,15.72,15.72,0.0,0.005,0,page 12; basic and diluted shown as one line,match
+ADANIPORTS,Large,consolidated,exceptional_items,current_quarter,-307600000.0,-307600000.0,0.0,50000.0,0,"page 12; printed as (30.76) and added in 'PBT (5+6)', i.e. a loss",match
+ADANIPORTS,Large,consolidated,net_profit,current_quarter,36824400000.0,36824400000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,other_income,current_quarter,2693700000.0,2693700000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,profit_before_tax,current_quarter,44657600000.0,44657600000.0,0.0,50000.0,1,page 12; includes share of JVs,match
+ADANIPORTS,Large,consolidated,revenue_from_operations,current_quarter,113404000000.0,113404000000.0,0.0,500000.0,0,page 12; PDF has an OCR text layer with misreads; values read from the page image,match
+ADANIPORTS,Large,consolidated,share_of_associates_jv,current_quarter,1395100000.0,1395100000.0,0.0,50000.0,0,page 12; shown above PBT (line 4),match
+ADANIPORTS,Large,consolidated,total_expenses,current_quarter,72527600000.0,72527600000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,consolidated,total_income,current_quarter,116097700000.0,116097700000.0,0.0,50000.0,0,page 12,match
+ADANIPORTS,Large,standalone,basic_eps,current_half_year,10.84,10.84,0.0,0.005,0,page 19; basic and diluted shown as one line,match
+ADANIPORTS,Large,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 19; dash in all four columns,match
+ADANIPORTS,Large,standalone,net_profit,current_half_year,24984600000.0,24984600000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,other_income,current_half_year,20195200000.0,20195200000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,profit_before_tax,current_half_year,31379800000.0,31379800000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,revenue_from_operations,current_half_year,45283600000.0,45283600000.0,0.0,50000.0,0,page 19; Sep-2025 columns marked * in the PDF,match
+ADANIPORTS,Large,standalone,total_expenses,current_half_year,34099000000.0,34099000000.0,0.0,500000.0,0,page 19,match
+ADANIPORTS,Large,standalone,total_income,current_half_year,65478800000.0,65478800000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,basic_eps,current_quarter,4.08,4.08,0.0,0.005,0,page 19; basic and diluted shown as one line,match
+ADANIPORTS,Large,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 19; dash in all four columns,match
+ADANIPORTS,Large,standalone,net_profit,current_quarter,9409700000.0,9409700000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,other_income,current_quarter,7597800000.0,7597800000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,profit_before_tax,current_quarter,12544200000.0,12544200000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,revenue_from_operations,current_quarter,22842800000.0,22842800000.0,0.0,50000.0,0,page 19; Sep-2025 columns marked * in the PDF,match
+ADANIPORTS,Large,standalone,total_expenses,current_quarter,17896400000.0,17896400000.0,0.0,50000.0,0,page 19,match
+ADANIPORTS,Large,standalone,total_income,current_quarter,30440600000.0,30440600000.0,0.0,50000.0,0,page 19,match
+AJANTPHARM,Mid,consolidated,basic_eps,current_half_year,57.81,57.81,0.0,0.005,0,page 5,match
+AJANTPHARM,Mid,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 5; no exceptional line in the statement,match
+AJANTPHARM,Mid,consolidated,net_profit,current_half_year,7223600000.0,7223600000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,other_income,current_half_year,1082900000.0,1082900000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,profit_before_tax,current_half_year,9819500000.0,9819500000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,revenue_from_operations,current_half_year,34201200000.0,34201200000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,share_of_associates_jv,current_half_year,0.0,0.0,0.0,5000000.0,0,page 5; no associates or JVs (wholly owned subsidiaries only),match
+AJANTPHARM,Mid,consolidated,total_expenses,current_half_year,25464600000.0,25464600000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,total_income,current_half_year,35284100000.0,35284100000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,basic_eps,current_quarter,31.07,31.07,0.0,0.005,0,page 5,match
+AJANTPHARM,Mid,consolidated,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 5; no exceptional line in the statement,match
+AJANTPHARM,Mid,consolidated,net_profit,current_quarter,3881400000.0,3881400000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,other_income,current_quarter,373900000.0,373900000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,profit_before_tax,current_quarter,5351500000.0,5351500000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,revenue_from_operations,current_quarter,17941600000.0,17941600000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,share_of_associates_jv,current_quarter,0.0,0.0,0.0,5000000.0,0,page 5; no associates or JVs (wholly owned subsidiaries only),match
+AJANTPHARM,Mid,consolidated,total_expenses,current_quarter,12964000000.0,12964000000.0,0.0,500000.0,0,page 5,match
+AJANTPHARM,Mid,consolidated,total_income,current_quarter,18315500000.0,18315500000.0,0.0,50000.0,0,page 5,match
+AJANTPHARM,Mid,standalone,basic_eps,current_half_year,55.65,55.65,0.0,0.005,0,page 10,match
+AJANTPHARM,Mid,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 10; no exceptional line in the statement,match
+AJANTPHARM,Mid,standalone,net_profit,current_half_year,6953600000.0,6953600000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,other_income,current_half_year,1234400000.0,1234400000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,profit_before_tax,current_half_year,9460700000.0,9460700000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,revenue_from_operations,current_half_year,32137400000.0,32137400000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,total_expenses,current_half_year,23911100000.0,23911100000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,total_income,current_half_year,33371800000.0,33371800000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,basic_eps,current_quarter,30.4,30.4,0.0,0.005,0,page 10,match
+AJANTPHARM,Mid,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 10; no exceptional line in the statement,match
+AJANTPHARM,Mid,standalone,net_profit,current_quarter,3798900000.0,3798900000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,other_income,current_quarter,526200000.0,526200000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,profit_before_tax,current_quarter,5226200000.0,5226200000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,revenue_from_operations,current_quarter,17250700000.0,17250700000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,total_expenses,current_quarter,12550700000.0,12550700000.0,0.0,50000.0,0,page 10,match
+AJANTPHARM,Mid,standalone,total_income,current_quarter,17776900000.0,17776900000.0,0.0,50000.0,0,page 10,match
+BAJAJ-AUTO,Large,consolidated,basic_eps,current_half_year,240.0,240.0,0.0,0.05,0,page 7; EPS printed to 1 decimal,match
+BAJAJ-AUTO,Large,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+BAJAJ-AUTO,Large,consolidated,net_profit,current_half_year,65731800000.0,65731800000.0,0.0,50000.0,0,page 7; 'Profit after tax (8-9)'; the line the PDF calls 'Profit for the period (10-11)' is profit attributable to owners,match
+BAJAJ-AUTO,Large,consolidated,other_income,current_half_year,12389800000.0,12389800000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,profit_before_tax,current_half_year,90331800000.0,90331800000.0,0.0,50000.0,1,page 7; includes share of associates,match
+BAJAJ-AUTO,Large,consolidated,revenue_from_operations,current_half_year,468143900000.0,468143900000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,share_of_associates_jv,current_half_year,370200000.0,370200000.0,0.0,50000.0,0,page 7; shown above PBT (line 5),match
+BAJAJ-AUTO,Large,consolidated,total_expenses,current_half_year,390572100000.0,390572100000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,total_income,current_half_year,480533700000.0,480533700000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,basic_eps,current_quarter,124.6,124.6,0.0,0.05,0,page 7; EPS printed to 1 decimal,match
+BAJAJ-AUTO,Large,consolidated,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+BAJAJ-AUTO,Large,consolidated,net_profit,current_quarter,33844300000.0,33844300000.0,0.0,50000.0,0,page 7; 'Profit after tax (8-9)'; the line the PDF calls 'Profit for the period (10-11)' is profit attributable to owners,match
+BAJAJ-AUTO,Large,consolidated,other_income,current_quarter,5511200000.0,5511200000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,profit_before_tax,current_quarter,46097700000.0,46097700000.0,0.0,50000.0,1,page 7; includes share of associates,match
+BAJAJ-AUTO,Large,consolidated,revenue_from_operations,current_quarter,251255600000.0,251255600000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,share_of_associates_jv,current_quarter,404500000.0,404500000.0,0.0,50000.0,0,page 7; shown above PBT (line 5),match
+BAJAJ-AUTO,Large,consolidated,total_expenses,current_quarter,211073600000.0,211073600000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,consolidated,total_income,current_quarter,256766800000.0,256766800000.0,0.0,50000.0,0,page 7,match
+BAJAJ-AUTO,Large,standalone,basic_eps,current_half_year,228.2,228.2,0.0,0.05,0,page 2; EPS printed to 1 decimal,match
+BAJAJ-AUTO,Large,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 2; printed as (gain)/loss; dash in all four columns,match
+BAJAJ-AUTO,Large,standalone,net_profit,current_half_year,63366000000.0,63366000000.0,0.0,500000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,other_income,current_half_year,9311700000.0,9311700000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,profit_before_tax,current_half_year,84422700000.0,84422700000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,revenue_from_operations,current_half_year,372471500000.0,372471500000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,total_expenses,current_half_year,297360500000.0,297360500000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,total_income,current_half_year,381783200000.0,381783200000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,basic_eps,current_quarter,121.6,121.6,0.0,0.05,0,page 2; EPS printed to 1 decimal,match
+BAJAJ-AUTO,Large,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 2; printed as (gain)/loss; dash in all four columns,match
+BAJAJ-AUTO,Large,standalone,net_profit,current_quarter,33537600000.0,33537600000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,other_income,current_quarter,4193400000.0,4193400000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,profit_before_tax,current_quarter,44574900000.0,44574900000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,revenue_from_operations,current_quarter,200034300000.0,200034300000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,total_expenses,current_quarter,159652800000.0,159652800000.0,0.0,50000.0,0,page 2,match
+BAJAJ-AUTO,Large,standalone,total_income,current_quarter,204227700000.0,204227700000.0,0.0,50000.0,0,page 2,match
+COALINDIA,Large,consolidated,basic_eps,current_half_year,24.94,24.94,0.0,0.005,0,page 8,match
+COALINDIA,Large,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 7; no exceptional line in the statement,match
+COALINDIA,Large,consolidated,net_profit,current_half_year,153972400000.0,153972400000.0,0.0,50000.0,0,page 7,match
+COALINDIA,Large,consolidated,other_income,current_half_year,46944600000.0,46944600000.0,0.0,50000.0,0,page 7,match
+COALINDIA,Large,consolidated,profit_before_tax,current_half_year,204476600000.0,204476600000.0,0.0,50000.0,1,page 7; includes share of JVs,match
+COALINDIA,Large,consolidated,revenue_from_operations,current_half_year,904335400000.0,904335400000.0,0.0,50000.0,0,page 7; scanned page,match
+COALINDIA,Large,consolidated,share_of_associates_jv,current_half_year,5343300000.0,5343300000.0,0.0,50000.0,0,"page 7; 'Share of Joint Venture Profit', shown above PBT (line 6)",match
+COALINDIA,Large,consolidated,total_expenses,current_half_year,752146700000.0,752146700000.0,0.0,50000.0,0,page 7,match
+COALINDIA,Large,consolidated,total_income,current_half_year,951280000000.0,951280000000.0,0.0,5000000.0,0,page 7,match
+COALINDIA,Large,consolidated,basic_eps,current_quarter,,10.57,,0.005,0,page 8,missing_in_xbrl
+COALINDIA,Large,consolidated,exceptional_items,current_quarter,,0.0,,50000.0,0,page 7; no exceptional line in the statement,missing_in_xbrl
+COALINDIA,Large,consolidated,net_profit,current_quarter,,65474300000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,other_income,current_quarter,,26539900000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,profit_before_tax,current_quarter,,87283000000.0,,50000.0,0,page 7; includes share of JVs,missing_in_xbrl
+COALINDIA,Large,consolidated,revenue_from_operations,current_quarter,,441787400000.0,,50000.0,0,page 7; scanned page,missing_in_xbrl
+COALINDIA,Large,consolidated,share_of_associates_jv,current_quarter,,2940100000.0,,50000.0,0,"page 7; 'Share of Joint Venture Profit', shown above PBT (line 6)",missing_in_xbrl
+COALINDIA,Large,consolidated,total_expenses,current_quarter,,383984400000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,consolidated,total_income,current_quarter,,468327300000.0,,50000.0,0,page 7,missing_in_xbrl
+COALINDIA,Large,standalone,basic_eps,current_half_year,14.8,14.8,0.0,0.005,0,page 16,match
+COALINDIA,Large,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 16; no exceptional line in the statement,match
+COALINDIA,Large,standalone,net_profit,current_half_year,91209000000.0,91209000000.0,0.0,500000.0,0,page 16,match
+COALINDIA,Large,standalone,other_income,current_half_year,90992000000.0,90992000000.0,0.0,500000.0,0,page 16; Q2 other income is mostly dividends from subsidiaries,match
+COALINDIA,Large,standalone,profit_before_tax,current_half_year,92067300000.0,92067300000.0,0.0,50000.0,0,page 16,match
+COALINDIA,Large,standalone,revenue_from_operations,current_half_year,6497800000.0,6497800000.0,0.0,50000.0,0,page 16; scanned page,match
+COALINDIA,Large,standalone,total_expenses,current_half_year,5422500000.0,5422500000.0,0.0,50000.0,0,page 16,match
+COALINDIA,Large,standalone,total_income,current_half_year,97489800000.0,97489800000.0,0.0,50000.0,0,page 16,match
+COALINDIA,Large,standalone,basic_eps,current_quarter,,14.55,,0.005,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,exceptional_items,current_quarter,,0.0,,50000.0,0,page 16; no exceptional line in the statement,missing_in_xbrl
+COALINDIA,Large,standalone,net_profit,current_quarter,,89677200000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,other_income,current_quarter,,90003200000.0,,50000.0,0,page 16; Q2 other income is mostly dividends from subsidiaries,missing_in_xbrl
+COALINDIA,Large,standalone,profit_before_tax,current_quarter,,89955300000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,revenue_from_operations,current_quarter,,3046000000.0,,50000.0,0,page 16; scanned page,missing_in_xbrl
+COALINDIA,Large,standalone,total_expenses,current_quarter,,3093900000.0,,50000.0,0,page 16,missing_in_xbrl
+COALINDIA,Large,standalone,total_income,current_quarter,,93049200000.0,,50000.0,0,page 16,missing_in_xbrl
+CONCOR,Mid,consolidated,basic_eps,current_half_year,8.17,8.17,0.0,0.005,0,page 7,match
+CONCOR,Mid,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+CONCOR,Mid,consolidated,net_profit,current_half_year,6225600000.0,6225600000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,other_income,current_half_year,1703200000.0,1703200000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,profit_before_tax,current_half_year,8142500000.0,8142500000.0,0.0,50000.0,0,page 7; excludes share of JVs,match
+CONCOR,Mid,consolidated,revenue_from_operations,current_half_year,45383300000.0,45383300000.0,0.0,50000.0,0,page 7; scanned page,match
+CONCOR,Mid,consolidated,share_of_associates_jv,current_half_year,123500000.0,123500000.0,0.0,50000.0,0,"page 7; shown after tax (line 10), same place as the XBRL taxonomy",match
+CONCOR,Mid,consolidated,total_expenses,current_half_year,38944000000.0,38944000000.0,0.0,500000.0,0,page 7,match
+CONCOR,Mid,consolidated,total_income,current_half_year,47086500000.0,47086500000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,basic_eps,current_quarter,4.64,4.64,0.0,0.005,0,page 7,match
+CONCOR,Mid,consolidated,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+CONCOR,Mid,consolidated,net_profit,current_quarter,3536600000.0,3536600000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,other_income,current_quarter,848200000.0,848200000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,profit_before_tax,current_quarter,4541400000.0,4541400000.0,0.0,50000.0,0,page 7; excludes share of JVs,match
+CONCOR,Mid,consolidated,revenue_from_operations,current_quarter,23785700000.0,23785700000.0,0.0,50000.0,0,page 7; scanned page,match
+CONCOR,Mid,consolidated,share_of_associates_jv,current_quarter,159100000.0,159100000.0,0.0,50000.0,0,"page 7; shown after tax (line 10), same place as the XBRL taxonomy",match
+CONCOR,Mid,consolidated,total_expenses,current_quarter,20092500000.0,20092500000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,consolidated,total_income,current_quarter,24633900000.0,24633900000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,basic_eps,current_half_year,8.2,8.2,0.0,0.005,0,page 7,match
+CONCOR,Mid,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+CONCOR,Mid,standalone,net_profit,current_half_year,6248100000.0,6248100000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,other_income,current_half_year,1875400000.0,1875400000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,profit_before_tax,current_half_year,8265200000.0,8265200000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,revenue_from_operations,current_half_year,45272500000.0,45272500000.0,0.0,50000.0,0,page 7; scanned page,match
+CONCOR,Mid,standalone,total_expenses,current_half_year,38882700000.0,38882700000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,total_income,current_half_year,47147900000.0,47147900000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,basic_eps,current_quarter,4.56,4.56,0.0,0.005,0,page 7,match
+CONCOR,Mid,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 7; dash in all four columns,match
+CONCOR,Mid,standalone,net_profit,current_quarter,3471600000.0,3471600000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,other_income,current_quarter,936700000.0,936700000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,profit_before_tax,current_quarter,4619100000.0,4619100000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,revenue_from_operations,current_quarter,23732100000.0,23732100000.0,0.0,50000.0,0,page 7; scanned page,match
+CONCOR,Mid,standalone,total_expenses,current_quarter,20049700000.0,20049700000.0,0.0,50000.0,0,page 7,match
+CONCOR,Mid,standalone,total_income,current_quarter,24668800000.0,24668800000.0,0.0,50000.0,0,page 7,match
+EMAMILTD,Small,consolidated,basic_eps,current_half_year,6.45,6.45,0.0,0.005,0,page 8,match
+EMAMILTD,Small,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,50000.0,0,page 8; dash in all four columns,match
+EMAMILTD,Small,consolidated,net_profit,current_half_year,2844400000.0,2844400000.0,0.0,50000.0,0,page 8,match
+EMAMILTD,Small,consolidated,other_income,current_half_year,414500000.0,414500000.0,0.0,50000.0,0,page 8,match
+EMAMILTD,Small,consolidated,profit_before_tax,current_half_year,3883300000.0,3883300000.0,0.0,50000.0,1,page 8; includes share of associates,match
+EMAMILTD,Small,consolidated,revenue_from_operations,current_half_year,21268600000.0,21268600000.0,0.0,50000.0,0,page 8; printed in whole lakhs,match
+EMAMILTD,Small,consolidated,share_of_associates_jv,current_half_year,-18800000.0,-18800000.0,0.0,50000.0,0,"page 8; 'Share of Loss of Associates', shown above PBT",match
+EMAMILTD,Small,consolidated,total_expenses,current_half_year,17781000000.0,17781000000.0,0.0,50000.0,0,"page 8; DERIVED: printed 'Total Expenses' (86533/81303/61998/167836) excludes finance costs and D&A, which are added here",match
+EMAMILTD,Small,consolidated,total_income,current_half_year,21683100000.0,21683100000.0,0.0,50000.0,0,page 8,match
+EMAMILTD,Small,consolidated,basic_eps,current_quarter,,3.3,,0.005,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,exceptional_items,current_quarter,,0.0,,50000.0,0,page 8; dash in all four columns,missing_in_xbrl
+EMAMILTD,Small,consolidated,net_profit,current_quarter,,1455000000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,other_income,current_quarter,,229500000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,consolidated,profit_before_tax,current_quarter,,1936200000.0,,50000.0,0,page 8; includes share of associates,missing_in_xbrl
+EMAMILTD,Small,consolidated,revenue_from_operations,current_quarter,,10876500000.0,,50000.0,0,page 8; printed in whole lakhs,missing_in_xbrl
+EMAMILTD,Small,consolidated,share_of_associates_jv,current_quarter,,-2800000.0,,50000.0,0,"page 8; 'Share of Loss of Associates', shown above PBT",missing_in_xbrl
+EMAMILTD,Small,consolidated,total_expenses,current_quarter,,9167000000.0,,50000.0,0,"page 8; DERIVED: printed 'Total Expenses' (86533/81303/61998/167836) excludes finance costs and D&A, which are added here",missing_in_xbrl
+EMAMILTD,Small,consolidated,total_income,current_quarter,,11106000000.0,,50000.0,0,page 8,missing_in_xbrl
+EMAMILTD,Small,standalone,basic_eps,current_half_year,7.3,7.3,0.0,0.005,0,page 14,match
+EMAMILTD,Small,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,50000.0,0,page 14; dash in all four columns,match
+EMAMILTD,Small,standalone,net_profit,current_half_year,3186800000.0,3186800000.0,0.0,50000.0,0,page 14,match
+EMAMILTD,Small,standalone,other_income,current_half_year,760700000.0,760700000.0,0.0,50000.0,0,page 14,match
+EMAMILTD,Small,standalone,profit_before_tax,current_half_year,4157900000.0,4157900000.0,0.0,50000.0,0,page 14,match
+EMAMILTD,Small,standalone,revenue_from_operations,current_half_year,14781200000.0,14781200000.0,0.0,50000.0,0,page 14; printed in whole lakhs,match
+EMAMILTD,Small,standalone,total_expenses,current_half_year,11384000000.0,11384000000.0,0.0,50000.0,0,"page 14; DERIVED: EBITDA-format statement; printed 'Total Expenses' (50301/56448/43685/106749) excludes finance costs and D&A, which are added here",match
+EMAMILTD,Small,standalone,total_income,current_half_year,15541900000.0,15541900000.0,0.0,50000.0,0,page 14,match
+EMAMILTD,Small,standalone,basic_eps,current_quarter,,3.13,,0.005,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,exceptional_items,current_quarter,,0.0,,50000.0,0,page 14; dash in all four columns,missing_in_xbrl
+EMAMILTD,Small,standalone,net_profit,current_quarter,,1364600000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,other_income,current_quarter,,228900000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,profit_before_tax,current_quarter,,1821900000.0,,50000.0,0,page 14,missing_in_xbrl
+EMAMILTD,Small,standalone,revenue_from_operations,current_quarter,,6982000000.0,,50000.0,0,page 14; printed in whole lakhs,missing_in_xbrl
+EMAMILTD,Small,standalone,total_expenses,current_quarter,,5389000000.0,,50000.0,0,"page 14; DERIVED: EBITDA-format statement; printed 'Total Expenses' (50301/56448/43685/106749) excludes finance costs and D&A, which are added here",missing_in_xbrl
+EMAMILTD,Small,standalone,total_income,current_quarter,,7210900000.0,,50000.0,0,page 14,missing_in_xbrl
+FSL,Small,consolidated,basic_eps,current_half_year,5.77,5.77,0.0,0.005,0,page 6,match
+FSL,Small,consolidated,exceptional_items,current_half_year,-716860000.0,-716860000.0,0.0,5000.0,0,"page 6; printed as 'net expense/(income)': 716.86 expense in Q1, (19.11) income a year ago",match
+FSL,Small,consolidated,net_profit,current_half_year,3983570000.0,3983570000.0,0.0,5000.0,0,page 6,match
+FSL,Small,consolidated,other_income,current_half_year,43160000.0,43160000.0,0.0,5000.0,0,"page 6; 'Other income, net' is negative this quarter",match
+FSL,Small,consolidated,profit_before_tax,current_half_year,5186910000.0,5186910000.0,0.0,5000.0,0,page 6,match
+FSL,Small,consolidated,revenue_from_operations,current_half_year,55504750000.0,55823880000.0,-319130000.0,5000.0,0,page 6; native text PDF,gap
+FSL,Small,consolidated,share_of_associates_jv,current_half_year,0.0,0.0,0.0,500000.0,0,page 6; dash in all four columns; shown above PBT,match
+FSL,Small,consolidated,total_expenses,current_half_year,49644140000.0,49644140000.0,0.0,5000.0,0,page 6,match
+FSL,Small,consolidated,total_income,current_half_year,55547910000.0,55547910000.0,0.0,5000.0,0,page 6; = revenue + other operating income + other income,match
+FSL,Small,consolidated,basic_eps,current_quarter,3.37,3.37,0.0,0.005,0,page 6,match
+FSL,Small,consolidated,exceptional_items,current_quarter,0.0,0.0,0.0,500000.0,0,"page 6; printed as 'net expense/(income)': 716.86 expense in Q1, (19.11) income a year ago",match
+FSL,Small,consolidated,net_profit,current_quarter,2324400000.0,2324400000.0,0.0,50000.0,0,page 6,match
+FSL,Small,consolidated,other_income,current_quarter,-17940000.0,-17940000.0,0.0,5000.0,0,"page 6; 'Other income, net' is negative this quarter",match
+FSL,Small,consolidated,profit_before_tax,current_quarter,2993500000.0,2993500000.0,0.0,50000.0,0,page 6,match
+FSL,Small,consolidated,revenue_from_operations,current_quarter,28255990000.0,28306370000.0,-50380000.0,5000.0,0,page 6; native text PDF,gap
+FSL,Small,consolidated,share_of_associates_jv,current_quarter,0.0,0.0,0.0,500000.0,0,page 6; dash in all four columns; shown above PBT,match
+FSL,Small,consolidated,total_expenses,current_quarter,25244550000.0,25244550000.0,0.0,5000.0,0,page 6,match
+FSL,Small,consolidated,total_income,current_quarter,28238050000.0,28238050000.0,0.0,5000.0,0,page 6; = revenue + other operating income + other income,match
+FSL,Small,standalone,basic_eps,current_half_year,5.88,5.88,0.0,0.005,0,page 13,match
+FSL,Small,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,500000.0,0,page 13; dash in all four columns,match
+FSL,Small,standalone,net_profit,current_half_year,4062050000.0,4062050000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,other_income,current_half_year,263850000.0,263850000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,profit_before_tax,current_half_year,5292420000.0,5292420000.0,0.0,5000.0,0,page 13; 'Profit from ordinary activities before tax',match
+FSL,Small,standalone,revenue_from_operations,current_half_year,17968460000.0,18529870000.0,-561410000.0,5000.0,0,page 13; native text PDF,gap
+FSL,Small,standalone,total_expenses,current_half_year,12939890000.0,12939890000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,total_income,current_half_year,18232310000.0,18232310000.0,0.0,5000.0,0,page 13; = revenue + other operating income + other income,match
+FSL,Small,standalone,basic_eps,current_quarter,2.88,2.88,0.0,0.005,0,page 13,match
+FSL,Small,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,500000.0,0,page 13; dash in all four columns,match
+FSL,Small,standalone,net_profit,current_quarter,1994140000.0,1994140000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,other_income,current_quarter,114270000.0,114270000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,profit_before_tax,current_quarter,2626910000.0,2626910000.0,0.0,5000.0,0,page 13; 'Profit from ordinary activities before tax',match
+FSL,Small,standalone,revenue_from_operations,current_quarter,9177570000.0,9395450000.0,-217880000.0,5000.0,0,page 13; native text PDF,gap
+FSL,Small,standalone,total_expenses,current_quarter,6664930000.0,6664930000.0,0.0,5000.0,0,page 13,match
+FSL,Small,standalone,total_income,current_quarter,9291840000.0,9291840000.0,0.0,5000.0,0,page 13; = revenue + other operating income + other income,match
+GVT&D,Mid,standalone,basic_eps,current_half_year,31.02,31.02,0.0,0.005,0,page 2; basic and diluted shown as one line,match
+GVT&D,Mid,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,500000.0,0,page 2; printed as (credit)/charge; dash in all four columns,match
+GVT&D,Mid,standalone,net_profit,current_half_year,7943800000.0,7943800000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,other_income,current_half_year,921700000.0,921700000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,profit_before_tax,current_half_year,10671300000.0,10671300000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,revenue_from_operations,current_half_year,38631200000.0,38631200000.0,0.0,50000.0,0,page 2; Rs million to 1 decimal; company has no consolidated results,match
+GVT&D,Mid,standalone,total_expenses,current_half_year,28881600000.0,28881600000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,total_income,current_half_year,39552900000.0,39552900000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,basic_eps,current_quarter,16.84,16.84,0.0,0.005,0,page 2; basic and diluted shown as one line,match
+GVT&D,Mid,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,500000.0,0,page 2; printed as (credit)/charge; dash in all four columns,match
+GVT&D,Mid,standalone,net_profit,current_quarter,4313900000.0,4313900000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,other_income,current_quarter,503300000.0,503300000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,profit_before_tax,current_quarter,5800000000.0,5800000000.0,0.0,500000.0,0,page 2,match
+GVT&D,Mid,standalone,revenue_from_operations,current_quarter,20269800000.0,20269800000.0,0.0,50000.0,0,page 2; Rs million to 1 decimal; company has no consolidated results,match
+GVT&D,Mid,standalone,total_expenses,current_quarter,14973100000.0,14973100000.0,0.0,50000.0,0,page 2,match
+GVT&D,Mid,standalone,total_income,current_quarter,20773100000.0,20773100000.0,0.0,50000.0,0,page 2,match
+HCLTECH,Large,consolidated,basic_eps,current_half_year,36.05,36.05,0.0,0.005,0,page 2,match
+HCLTECH,Large,consolidated,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 2; dash in all four columns,match
+HCLTECH,Large,consolidated,net_profit,current_half_year,97580000000.0,97580000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,other_income,current_half_year,5950000000.0,5950000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,profit_before_tax,current_half_year,125750000000.0,125750000000.0,0.0,5000000.0,1,page 2; includes share of associate,match
+HCLTECH,Large,consolidated,revenue_from_operations,current_half_year,701990000000.0,701990000000.0,0.0,5000000.0,0,page 2; printed in whole crores,match
+HCLTECH,Large,consolidated,share_of_associates_jv,current_half_year,-380000000.0,-380000000.0,0.0,5000000.0,0,"page 2; 'Share of loss of an associate', shown above PBT",match
+HCLTECH,Large,consolidated,total_expenses,current_half_year,581810000000.0,581810000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,total_income,current_half_year,707940000000.0,707940000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,basic_eps,current_quarter,18.96,18.96,0.0,0.005,0,page 2,match
+HCLTECH,Large,consolidated,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 2; dash in all four columns,match
+HCLTECH,Large,consolidated,net_profit,current_quarter,51320000000.0,51320000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,other_income,current_quarter,2340000000.0,2340000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,profit_before_tax,current_quarter,64670000000.0,64670000000.0,0.0,5000000.0,1,page 2; includes share of associate,match
+HCLTECH,Large,consolidated,revenue_from_operations,current_quarter,356200000000.0,356200000000.0,0.0,5000000.0,0,page 2; printed in whole crores,match
+HCLTECH,Large,consolidated,share_of_associates_jv,current_quarter,-380000000.0,-380000000.0,0.0,5000000.0,0,"page 2; 'Share of loss of an associate', shown above PBT",match
+HCLTECH,Large,consolidated,total_expenses,current_quarter,293490000000.0,293490000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,consolidated,total_income,current_quarter,358540000000.0,358540000000.0,0.0,5000000.0,0,page 2,match
+HCLTECH,Large,standalone,basic_eps,current_half_year,41.85,41.85,0.0,0.005,0,page 6,match
+HCLTECH,Large,standalone,exceptional_items,current_half_year,0.0,0.0,0.0,5000000.0,0,page 6; dash in all four columns,match
+HCLTECH,Large,standalone,net_profit,current_half_year,113270000000.0,113270000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,other_income,current_half_year,50540000000.0,50540000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,profit_before_tax,current_half_year,130500000000.0,130500000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,revenue_from_operations,current_half_year,297820000000.0,297820000000.0,0.0,5000000.0,0,page 6; printed in whole crores,match
+HCLTECH,Large,standalone,total_expenses,current_half_year,217860000000.0,217860000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,total_income,current_half_year,348360000000.0,348360000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,basic_eps,current_quarter,15.89,15.89,0.0,0.005,0,page 6,match
+HCLTECH,Large,standalone,exceptional_items,current_quarter,0.0,0.0,0.0,5000000.0,0,page 6; dash in all four columns,match
+HCLTECH,Large,standalone,net_profit,current_quarter,43020000000.0,43020000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,other_income,current_quarter,6530000000.0,6530000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,profit_before_tax,current_quarter,50650000000.0,50650000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,revenue_from_operations,current_quarter,154450000000.0,154450000000.0,0.0,5000000.0,0,page 6; printed in whole crores,match
+HCLTECH,Large,standalone,total_expenses,current_quarter,110330000000.0,110330000000.0,0.0,5000000.0,0,page 6,match
+HCLTECH,Large,standalone,total_income,current_quarter,160980000000.0,160980000000.0,0.0,5000000.0,0,page 6,match
+WELSPUNLIV,Small,consolidated,basic_eps,current_half_year,3.55,3.49,0.05999999999999961,0.005,0,page 8; basic EPS after exceptional items,gap
+WELSPUNLIV,Small,consolidated,exceptional_items,current_half_year,-71600000.0,-71600000.0,0.0,50000.0,0,"page 8; printed as 7.16 and subtracted in 'PBT (5-6)', i.e. a loss",match
+WELSPUNLIV,Small,consolidated,net_profit,current_half_year,3322700000.0,3322700000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,other_income,current_half_year,644900000.0,644900000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,profit_before_tax,current_half_year,4461800000.0,4461800000.0,0.0,50000.0,1,page 8; after exceptional items; includes share of associate,match
+WELSPUNLIV,Small,consolidated,revenue_from_operations,current_half_year,56335700000.0,56335700000.0,0.0,50000.0,0,page 8; OCR text layer; values read from the page image,match
+WELSPUNLIV,Small,consolidated,share_of_associates_jv,current_half_year,12000000.0,12000000.0,0.0,500000.0,0,page 8; shown above PBT (line 4),match
+WELSPUNLIV,Small,consolidated,total_expenses,current_half_year,52459200000.0,52459200000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,total_income,current_half_year,56980600000.0,56980600000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,basic_eps,current_quarter,1.86,1.8,0.06000000000000005,0.005,0,page 8; basic EPS after exceptional items,gap
+WELSPUNLIV,Small,consolidated,exceptional_items,current_quarter,-71600000.0,-71600000.0,0.0,50000.0,0,"page 8; printed as 7.16 and subtracted in 'PBT (5-6)', i.e. a loss",match
+WELSPUNLIV,Small,consolidated,net_profit,current_quarter,1696600000.0,1696600000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,other_income,current_quarter,317800000.0,317800000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,profit_before_tax,current_quarter,2258200000.0,2258200000.0,0.0,50000.0,1,page 8; after exceptional items; includes share of associate,match
+WELSPUNLIV,Small,consolidated,revenue_from_operations,current_quarter,28381200000.0,28381200000.0,0.0,50000.0,0,page 8; OCR text layer; values read from the page image,match
+WELSPUNLIV,Small,consolidated,share_of_associates_jv,current_quarter,-1500000.0,-1500000.0,0.0,50000.0,0,page 8; shown above PBT (line 4),match
+WELSPUNLIV,Small,consolidated,total_expenses,current_quarter,26367700000.0,26367700000.0,0.0,50000.0,0,page 8,match
+WELSPUNLIV,Small,consolidated,total_income,current_quarter,28699000000.0,28699000000.0,0.0,500000.0,0,page 8,match
+WELSPUNLIV,Small,standalone,basic_eps,current_half_year,2.79,2.79,0.0,0.005,0,page 15; basic EPS after exceptional items (PDF also shows before-exceptional EPS),match
+WELSPUNLIV,Small,standalone,exceptional_items,current_half_year,-71600000.0,-71600000.0,0.0,50000.0,0,"page 15; printed as 7.16 and subtracted in 'PBT (3-4)' (Vapi plant flood), i.e. a loss",match
+WELSPUNLIV,Small,standalone,net_profit,current_half_year,2644000000.0,2644000000.0,0.0,500000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,other_income,current_half_year,1407000000.0,1407000000.0,0.0,500000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,profit_before_tax,current_half_year,3279700000.0,3279700000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,revenue_from_operations,current_half_year,42465100000.0,42465100000.0,0.0,50000.0,0,page 15; PDF has an OCR text layer with misreads (e.g. 4248.51); values read from the page image,match
+WELSPUNLIV,Small,standalone,total_expenses,current_half_year,40520800000.0,40520800000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,total_income,current_half_year,43872100000.0,43872100000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,basic_eps,current_quarter,1.15,1.15,0.0,0.005,0,page 15; basic EPS after exceptional items (PDF also shows before-exceptional EPS),match
+WELSPUNLIV,Small,standalone,exceptional_items,current_quarter,-71600000.0,-71600000.0,0.0,50000.0,0,"page 15; printed as 7.16 and subtracted in 'PBT (3-4)' (Vapi plant flood), i.e. a loss",match
+WELSPUNLIV,Small,standalone,net_profit,current_quarter,1086700000.0,1086700000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,other_income,current_quarter,548500000.0,548500000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,profit_before_tax,current_quarter,1367700000.0,1367700000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,revenue_from_operations,current_quarter,21634300000.0,21634300000.0,0.0,50000.0,0,page 15; PDF has an OCR text layer with misreads (e.g. 4248.51); values read from the page image,match
+WELSPUNLIV,Small,standalone,total_expenses,current_quarter,20743500000.0,20743500000.0,0.0,50000.0,0,page 15,match
+WELSPUNLIV,Small,standalone,total_income,current_quarter,22182800000.0,22182800000.0,0.0,50000.0,0,page 15,match

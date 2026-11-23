@@ -1,0 +1,15 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+RUBICON,standalone,revenue_from_operations,3835.72,4277.30,3364.67,8113.02,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,other_income,22.62,24.11,15.12,46.73,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,total_income,3858.34,4301.41,3379.79,8159.75,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,total_expenses,3042.71,3194.84,2763.49,6237.55,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,profit_before_tax,815.63,1106.57,616.30,1922.20,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,net_profit,606.20,824.49,458.12,1430.69,millions,4,hand-read from page image (scanned); no exceptional line
+RUBICON,standalone,basic_eps,3.66,4.99,2.97,8.65,rupees,4,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,revenue_from_operations,5763.83,5343.38,4120.18,11107.21,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,other_income,22.89,56.83,6.97,79.72,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,total_income,5786.72,5400.21,4127.15,11186.93,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,total_expenses,4617.50,4296.49,3410.10,8913.99,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,profit_before_tax,1169.22,1103.72,717.05,2272.94,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,net_profit,904.26,847.81,538.52,1752.07,millions,10,hand-read from page image (scanned); no exceptional line
+RUBICON,consolidated,basic_eps,5.47,5.13,3.49,10.60,rupees,10,hand-read from page image (scanned); no exceptional line

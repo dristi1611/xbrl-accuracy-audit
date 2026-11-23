@@ -1,0 +1,17 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+BEL,standalone,revenue_from_operations,729087,553306,576365,1282393,lakhs,7,auto (OCR); row: 1 |Revenue from operations                                  ; all columns checked against page image
+BEL,standalone,other_income,19043,16739,15910,35782,lakhs,7,auto (OCR); row: 2 |Other income                                             ; all columns checked against page image
+BEL,standalone,total_income,748130,570045,592275,1318175,lakhs,7,auto (OCR); row: 3 |Total income (1 + 2)                                     ; all columns checked against page image
+BEL,standalone,total_expenses,541726,429762,418845,971488,lakhs,7,auto (OCR); row: Total expenses (a to g)                                     ; all columns checked against page image
+BEL,standalone,profit_before_tax,206404,140283,173430,346687,lakhs,7,auto (OCR); row: 7 {Profit before tax (5 - 6)                                ; all columns checked against page image
+BEL,standalone,net_profit,154073,104833,128613,258906,lakhs,7,auto (OCR); row: 9 |Profit for the period (7 - 8)                            ; all columns checked against page image
+BEL,standalone,basic_eps,2.11,1.43,1.76,3.54,rupees,7,auto (OCR); row: 13 |Earnings per share (Basic & Diluted) (®) (not annualised; all columns checked against page image
+BEL,consolidated,revenue_from_operations,732772,554698,579209,1287470,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,other_income,18713,16956,15392,35669,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,total_income,751485,571654,594601,1323139,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,total_expenses,546074,432029,421806,978103,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,share_of_associates_jv,904,1063,874,1967,lakhs,8,hand-read from page image (scanned); after tax; associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,exceptional_items,0,0,0,0,lakhs,8,hand-read from page image (scanned); loss negative; associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,profit_before_tax,205411,139625,172795,345036,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,net_profit,154037,105453,128716,259490,lakhs,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'
+BEL,consolidated,basic_eps,2.11,1.44,1.76,3.55,rupees,8,hand-read from page image (scanned); associates added after tax; PBT row is 'profit before share of associates & tax (5-6)'

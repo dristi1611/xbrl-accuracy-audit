@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+TECHM,consolidated,revenue_from_operations,161802,157119,139949,318921,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,other_income,-74,-1064,400,-1138,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,total_income,161728,156055,140349,317783,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,total_expenses,138767,135593,123728,274360,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,share_of_associates_jv,0,-43,-28,-43,millions,16,"hand-read from page image (text); above PBT; other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,exceptional_items,0,0,0,0,millions,16,"hand-read from page image (text); loss negative; other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,profit_before_tax,22961,20419,16593,43380,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,net_profit,16097,14863,12017,30960,millions,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,consolidated,basic_eps,17.88,16.53,13.48,34.41,rupees,16,"hand-read from page image (text); other income includes FX gain/(loss), negative in three columns"
+TECHM,standalone,revenue_from_operations,137424,132186,120676,269610,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,other_income,5376,-1373,2464,4003,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,total_income,142800,130813,123140,273613,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,total_expenses,120757,115716,107806,236473,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,exceptional_items,0,0,0,0,millions,25,hand-read from page image (text); loss negative; other income includes FX gain/(loss)
+TECHM,standalone,profit_before_tax,22043,15097,15334,37140,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,net_profit,16138,11379,11757,27517,millions,25,hand-read from page image (text); other income includes FX gain/(loss)
+TECHM,standalone,basic_eps,16.45,11.60,11.99,28.05,rupees,25,hand-read from page image (text); other income includes FX gain/(loss)

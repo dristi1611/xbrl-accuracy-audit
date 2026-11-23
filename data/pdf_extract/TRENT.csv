@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+TRENT,standalone,revenue_from_operations,5787.64,5666.30,4724.06,11453.94,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,other_income,34.15,30.18,119.21,64.33,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,total_income,5821.79,5696.48,4843.27,11518.27,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,total_expenses,5176.90,4994.66,4267.39,10171.56,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,exceptional_items,0,0,0,0,crores,3,"hand-read from page image (text); loss negative; EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,profit_before_tax,644.89,701.82,575.88,1346.71,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,net_profit,489.65,531.77,450.77,1021.42,crores,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,standalone,basic_eps,9.18,9.97,8.45,19.16,rupees,3,"hand-read from page image (text); EPS on page 4; Q2 FY26 EPS on Re 1 shares after bonus (capital 35.55 -> 53.32 crore), so restated"
+TRENT,consolidated,revenue_from_operations,5873.14,5754.71,4817.68,11627.85,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,other_income,26.11,29.83,27.55,55.94,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,total_income,5899.25,5784.54,4845.23,11683.79,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,total_expenses,5259.13,5082.96,4367.15,10342.09,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,exceptional_items,0,0,0,0,crores,10,hand-read from page image (text); loss negative; EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,share_of_associates_jv,-21.06,-9.74,-1.10,-30.80,crores,10,hand-read from page image (text); above PBT; EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,profit_before_tax,619.06,691.84,476.98,1310.90,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,net_profit,468.09,518.07,373.42,986.16,crores,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue
+TRENT,consolidated,basic_eps,8.70,9.73,7.07,18.43,rupees,10,hand-read from page image (text); EPS on page 11; associates above PBT; Q2 FY26 EPS restated for bonus issue

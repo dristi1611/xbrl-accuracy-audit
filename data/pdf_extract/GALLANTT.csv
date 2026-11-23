@@ -1,0 +1,10 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+GALLANTT,consolidated,revenue_from_operations,114589.15,114566.71,101275.02,229155.86,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,other_income,1815.24,1830.99,1321.65,3646.23,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,total_income,116404.39,116397.70,102596.67,232802.09,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,total_expenses,108087.02,99916.25,92295.92,208003.28,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,share_of_associates_jv,0,0,169.37,0,lakhs,2,"hand-read from page image (scanned); after tax; PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,exceptional_items,0,0,0,0,lakhs,2,"hand-read from page image (scanned); loss negative; PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,profit_before_tax,8317.37,16481.45,10300.75,24798.81,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,net_profit,6051.07,12366.74,8892.62,18417.78,lakhs,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"
+GALLANTT,consolidated,basic_eps,2.51,5.13,3.62,7.63,rupees,2,"hand-read from page image (scanned); PDF prints columns in the order Q2 FY27, Q2 FY26, Q1 FY27 (reordered here); associate share added after tax"

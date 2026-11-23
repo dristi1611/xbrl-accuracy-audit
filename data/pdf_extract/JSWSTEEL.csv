@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+JSWSTEEL,standalone,revenue_from_operations,42008,35540,33004,77548,crores,4,auto (text layer); row: Total Revenue from operations                               ; all columns checked against page image
+JSWSTEEL,standalone,other_income,413,3358,1487,3771,crores,4,auto (text layer); row: II   Other Income                                           ; all columns checked against page image
+JSWSTEEL,standalone,total_income,42421,38898,34491,81319,crores,4,auto (text layer); row: Ill   Total Income (I+ II)                                  ; all columns checked against page image
+JSWSTEEL,standalone,total_expenses,37861,32207,31380,70068,crores,4,auto (text layer); row: Total Expenses (IV)                                         ; all columns checked against page image
+JSWSTEEL,standalone,exceptional_items,0,0,0,0,crores,4,auto (text layer); row: VI    Exceptional Items (refer note 5)                      ; all columns checked against page image
+JSWSTEEL,standalone,profit_before_tax,4560,6691,3111,11251,crores,4,auto (text layer); row: VII Profit before Tax (V-VI)                                ; all columns checked against page image
+JSWSTEEL,standalone,net_profit,3396,5750,2417,9146,crores,4,auto (text layer); row: IX    Net Profit for the period/ year (VII-VIII)            ; all columns checked against page image
+JSWSTEEL,standalone,basic_eps,13.55,22.94,9.65,36.49,rupees,4,auto (text layer); row: Basic (Rs.)                                                 ; all columns checked against page image
+JSWSTEEL,consolidated,revenue_from_operations,54486,47364,45152,101850,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,other_income,441,724,284,1165,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,total_income,54927,48088,45436,103015,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,total_expenses,48168,41830,43004,89998,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,share_of_associates_jv,292,-98,-88,194,crores,14,hand-read from page image (text); above PBT; whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,exceptional_items,0,0,0,0,crores,14,hand-read from page image (text); loss negative; whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,profit_before_tax,7051,6160,2344,13211,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,net_profit,5359,4696,1646,10055,crores,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'
+JSWSTEEL,consolidated,basic_eps,21.63,19.05,6.66,40.68,rupees,14,hand-read from page image (text); whole crores; revenue = 'Total Revenue from operations'

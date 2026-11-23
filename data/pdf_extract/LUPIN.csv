@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+LUPIN,consolidated,revenue_from_operations,78272.6,82768.9,70475.1,161041.5,millions,8,auto (text layer); row: Total Revenue from operations                               ; all columns checked against page image
+LUPIN,consolidated,other_income,1267.9,1303.2,900.0,2571.1,millions,8,auto (text layer); row: 2)   Other income                                           ; all columns checked against page image
+LUPIN,consolidated,total_income,79540.5,84072.1,71375.1,163612.6,millions,8,auto (text layer); row: 3)   Total income (1+2)                                     ; all columns checked against page image
+LUPIN,consolidated,total_expenses,63744.6,63898.3,51305.4,127642.9,millions,8,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+LUPIN,consolidated,share_of_associates_jv,0.1,-0.2,0,-0.1,millions,8,auto (text layer); row: 6)   Share of profit / (loss) from joint venture (net of tax; above PBT; all columns checked against page image
+LUPIN,consolidated,exceptional_items,0,0,0,0,millions,8,auto (text layer); row: 8)   Exceptional items [income/(expense)] (Refer note 11)   ; all columns checked against page image
+LUPIN,consolidated,profit_before_tax,15796.0,20173.6,20069.7,35969.6,millions,8,auto (text layer); row: 7)   Profit / (Loss) before tax and exceptional items (5+6) ; all columns checked against page image
+LUPIN,consolidated,net_profit,11553.0,14169.8,14848.3,25722.8,millions,8,auto (text layer); row: 11) Net Profit / (Loss) after tax (9-10)                    ; all columns checked against page image
+LUPIN,consolidated,basic_eps,25.27,30.95,32.36,56.21,rupees,8,auto (text layer); row: a) Basic (in ₹)                                             ; all columns checked against page image
+LUPIN,standalone,revenue_from_operations,35673.4,71719.0,40682.8,107392.4,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,other_income,955.2,1024.8,700.0,1980.0,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,total_income,36628.6,72743.8,41382.8,109372.4,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,total_expenses,35817.4,36643.2,30951.5,72460.6,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,exceptional_items,-769.3,0,5926.8,-769.3,millions,2,hand-read from page image (text); loss negative; EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,profit_before_tax,41.9,36100.6,16358.1,36142.5,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,net_profit,-59.1,27146.0,13573.5,27086.9,millions,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line
+LUPIN,standalone,basic_eps,-0.13,59.37,29.72,59.24,rupees,2,hand-read from page image (text); EPS after exceptional items; re-read after check 1: auto pass took the 'before exceptional items' EPS line

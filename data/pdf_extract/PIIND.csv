@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+PIIND,consolidated,revenue_from_operations,17018,17023,18723,34041,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,other_income,611,641,825,1252,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,total_income,17629,17664,19548,35293,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,total_expenses,15824,14465,14316,30289,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,share_of_associates_jv,35,19,21,54,millions,8,hand-read from page image (scanned); above PBT
+PIIND,consolidated,exceptional_items,0,0,0,0,millions,8,hand-read from page image (scanned); loss negative
+PIIND,consolidated,profit_before_tax,1840,3218,5253,5058,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,net_profit,1222,2442,4093,3664,millions,8,hand-read from page image (scanned)
+PIIND,consolidated,basic_eps,8.05,16.10,26.98,24.15,rupees,8,hand-read from page image (scanned)
+PIIND,standalone,revenue_from_operations,15335,15989,17526,31324,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,other_income,625,608,803,1233,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,total_income,15960,16597,18329,32557,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,total_expenses,13208,12227,12183,25435,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,exceptional_items,0,0,0,0,millions,2,"hand-read from page image (text); loss negative; re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,profit_before_tax,2752,4370,6146,7122,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,net_profit,2071,3415,4911,5486,millions,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"
+PIIND,standalone,basic_eps,13.66,22.50,32.36,36.16,rupees,2,"hand-read from page image (text); re-read after check 1: auto pass split '2,071' into two cells and shifted the net profit row"

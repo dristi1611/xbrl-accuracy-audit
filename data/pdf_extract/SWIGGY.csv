@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+SWIGGY,consolidated,revenue_from_operations,7571,6812,5561,14383,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,other_income,212,211,59,423,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,total_income,7783,7023,5620,14806,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,total_expenses,8703,7813,6711,16516,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,share_of_associates_jv,-2,-1,-1,-3,crores,5,hand-read from page image (text); above PBT; whole crores
+SWIGGY,consolidated,exceptional_items,0,0,0,0,crores,5,hand-read from page image (text); loss negative; whole crores
+SWIGGY,consolidated,profit_before_tax,-922,-791,-1092,-1713,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,net_profit,-922,-791,-1092,-1713,crores,5,hand-read from page image (text); whole crores
+SWIGGY,consolidated,basic_eps,-3.45,-2.96,-4.59,-6.41,rupees,5,hand-read from page image (text); whole crores
+SWIGGY,standalone,revenue_from_operations,2646,2462,2022,5108,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,other_income,335,367,99,702,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,total_income,2981,2829,2121,5810,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,total_expenses,2694,2479,2084,5173,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,exceptional_items,0,0,0,0,crores,12,hand-read from page image (text); loss negative; PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,profit_before_tax,287,350,37,637,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,net_profit,287,350,-881,637,crores,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS
+SWIGGY,standalone,basic_eps,1.07,1.31,-3.70,2.38,rupees,12,hand-read from page image (text); PBT is continuing operations only; net profit and EPS include discontinued operations (Q2 FY26 loss of 918 crore); re-read by eye: auto pass took continuing-only Q2 FY26 profit and EPS

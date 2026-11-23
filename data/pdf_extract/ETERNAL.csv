@@ -1,0 +1,17 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+ETERNAL,consolidated,revenue_from_operations,24138,20211,13590,44349,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,other_income,351,375,352,726,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,total_income,24489,20586,13942,45075,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,total_expenses,24166,20314,13813,44480,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,exceptional_items,0,0,0,0,crores,11,hand-read from page image (scanned); loss negative; whole crores
+ETERNAL,consolidated,profit_before_tax,323,272,129,595,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,net_profit,125,92,65,217,crores,11,hand-read from page image (scanned); whole crores
+ETERNAL,consolidated,basic_eps,0.14,0.10,0.07,0.24,rupees,11,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,revenue_from_operations,3663,3349,2650,7012,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,other_income,635,602,436,1237,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,total_income,4298,3951,3086,8249,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,total_expenses,3443,3171,2315,6614,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,exceptional_items,0,0,0,0,crores,18,hand-read from page image (scanned); loss negative; whole crores
+ETERNAL,standalone,profit_before_tax,855,780,771,1635,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,net_profit,641,585,691,1226,crores,18,hand-read from page image (scanned); whole crores
+ETERNAL,standalone,basic_eps,0.70,0.64,0.76,1.33,rupees,18,hand-read from page image (scanned); whole crores

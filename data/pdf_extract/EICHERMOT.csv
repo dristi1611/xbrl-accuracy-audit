@@ -1,0 +1,16 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+EICHERMOT,standalone,revenue_from_operations,7159.04,6213.61,5902.07,13372.65,crores,3,auto (text layer); row: Total Revenue from operations                               ; all columns checked against page image
+EICHERMOT,standalone,other_income,329.77,727.09,339.99,1056.86,crores,3,auto (text layer); row: 2. Other income                                             ; all columns checked against page image
+EICHERMOT,standalone,total_income,7488.81,6940.70,6242.06,14429.51,crores,3,auto (text layer); row: 3. Total Income (1+2)                                       ; all columns checked against page image
+EICHERMOT,standalone,total_expenses,5745.46,4972.66,4627.93,10718.12,crores,3,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+EICHERMOT,standalone,profit_before_tax,1743.35,1968.04,1614.13,3711.39,crores,3,auto (text layer); row: 7. Profit before tax (5+6)                                  ; all columns checked against page image
+EICHERMOT,standalone,net_profit,1324.99,1506.62,1208.01,2831.61,crores,3,auto (text layer); row: 9. Profit for the year / period (7-8)                       ; all columns checked against page image
+EICHERMOT,standalone,basic_eps,48.27,54.91,44.04,103.18,rupees,3,auto (text layer); row: (a) Basic                                                   ; all columns checked against page image
+EICHERMOT,consolidated,revenue_from_operations,7421.72,6632.42,6171.59,14054.14,crores,9,auto (text layer); row: Total Revenue from operations                               ; all columns checked against page image
+EICHERMOT,consolidated,other_income,331.88,466.31,350.92,798.19,crores,9,auto (text layer); row: 2. Other income                                             ; all columns checked against page image
+EICHERMOT,consolidated,total_income,7753.60,7098.73,6522.51,14852.33,crores,9,auto (text layer); row: 3. Total Income (1+2)                                       ; all columns checked against page image
+EICHERMOT,consolidated,total_expenses,5947.29,5341.00,4878.41,11288.29,crores,9,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+EICHERMOT,consolidated,share_of_associates_jv,186.07,167.50,134.91,353.57,crores,9,auto (text layer); row: 6. Share of profit of Joint venture (VE Commercial Vehicles ; above PBT; all columns checked against page image
+EICHERMOT,consolidated,profit_before_tax,1992.38,1925.23,1779.01,3917.61,crores,9,auto (text layer); row: 9. Profit before tax (7+8)                                  ; all columns checked against page image
+EICHERMOT,consolidated,net_profit,1573.37,1462.51,1369.45,3035.88,crores,9,auto (text layer); row: 11. Profit for the year / period (9-10)                     ; all columns checked against page image
+EICHERMOT,consolidated,basic_eps,57.31,53.30,49.93,110.61,rupees,9,auto (text layer); row: (a) Basic                                                   ; all columns checked against page image

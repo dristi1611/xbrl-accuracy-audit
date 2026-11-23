@@ -1,0 +1,16 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+AFCONS,standalone,revenue_from_operations,2635.26,2670.90,2987.67,5306.16,crores,6,auto (OCR); row: Revenue from Operations                                     ; all columns checked against page image
+AFCONS,standalone,other_income,272.29,56.44,109.45,328.73,crores,6,auto (OCR); row: Other income (Net) (refer Note viii)                        ; all columns checked against page image
+AFCONS,standalone,total_income,2907.55,2727.34,3097.12,5634.89,crores,6,auto (OCR); row: Total Income                                                ; all columns checked against page image
+AFCONS,standalone,total_expenses,2734.84,2670.17,2940.95,5405.01,crores,6,auto (OCR); row: Total Expenses                                              ; all columns checked against page image
+AFCONS,standalone,profit_before_tax,172.71,57.17,156.17,229.88,crores,6,auto (OCR); row: 3 |Profit before tax (1 - 2)                                ; all columns checked against page image
+AFCONS,standalone,net_profit,131.84,36.88,112.03,168.72,crores,6,auto (OCR); row: 7 |Profit after tax and exceptional items (5 - 6)           ; all columns checked against page image
+AFCONS,standalone,basic_eps,3.58,1.00,3.05,4.59,rupees,6,auto (OCR); row: (a) Basic earnings per share (in 2)                         ; all columns checked against page image
+AFCONS,consolidated,revenue_from_operations,2635.25,2671.00,2988.39,5306.25,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,other_income,271.03,55.68,112.54,326.71,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,total_income,2906.28,2726.68,3100.93,5632.96,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,total_expenses,2823.90,2676.09,2951.69,5499.99,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,exceptional_items,0,0,0,0,crores,16,hand-read from page image (text); loss negative; re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,profit_before_tax,82.38,50.59,149.24,132.97,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,net_profit,41.09,30.30,105.08,71.39,crores,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71
+AFCONS,consolidated,basic_eps,1.12,0.82,2.85,1.94,rupees,16,hand-read from page image (text); re-read after check 1: auto pass had cut H1 net profit to 71

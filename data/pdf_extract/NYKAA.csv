@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+NYKAA,consolidated,revenue_from_operations,3006.04,2782.00,2345.98,5788.04,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,other_income,9.52,9.31,8.03,18.83,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,total_income,3015.56,2791.31,2354.01,5806.87,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,total_expenses,2867.05,2662.15,2297.59,5529.20,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,share_of_associates_jv,0,0,0,0,crores,2,"hand-read from page image (text); after tax; exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,exceptional_items,0,0,-1.04,0,crores,2,"hand-read from page image (text); loss negative; exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,profit_before_tax,148.51,129.16,55.38,277.67,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,net_profit,101.19,79.76,32.98,180.95,crores,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,consolidated,basic_eps,0.35,0.28,0.12,0.63,rupees,2,"hand-read from page image (text); exceptional printed 1.04 and subtracted in 'PBT (III-IV)', i.e. a loss; associate share added after tax (nil)"
+NYKAA,standalone,revenue_from_operations,103.61,75.42,76.97,179.03,crores,10,hand-read from page image (text)
+NYKAA,standalone,other_income,51.02,52.27,40.56,103.29,crores,10,hand-read from page image (text)
+NYKAA,standalone,total_income,154.63,127.69,117.53,282.32,crores,10,hand-read from page image (text)
+NYKAA,standalone,total_expenses,131.97,114.91,101.01,246.88,crores,10,hand-read from page image (text)
+NYKAA,standalone,exceptional_items,0,0,0,0,crores,10,hand-read from page image (text); loss negative
+NYKAA,standalone,profit_before_tax,22.66,12.78,16.52,35.44,crores,10,hand-read from page image (text)
+NYKAA,standalone,net_profit,16.71,9.57,12.25,26.28,crores,10,hand-read from page image (text)
+NYKAA,standalone,basic_eps,0.06,0.03,0.04,0.09,rupees,10,hand-read from page image (text)

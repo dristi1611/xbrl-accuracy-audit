@@ -1,0 +1,16 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+LAURUSLABS,standalone,revenue_from_operations,2014.11,1757.16,1566.60,3771.27,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,other_income,24.72,20.07,28.45,44.79,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,total_income,2038.83,1777.23,1595.05,3816.06,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,total_expenses,1519.21,1389.06,1306.21,2908.27,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,profit_before_tax,519.62,388.17,288.84,907.79,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,net_profit,388.13,289.96,215.67,678.09,crores,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,standalone,basic_eps,7.18,5.37,3.99,12.55,rupees,8,hand-read from page image (text); no exceptional line
+LAURUSLABS,consolidated,revenue_from_operations,2206.37,2026.31,1653.47,4232.68,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,other_income,13.01,9.18,26.96,22.19,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,total_income,2219.38,2035.49,1680.43,4254.87,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,total_expenses,1627.56,1554.13,1410.70,3181.69,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,share_of_associates_jv,-0.55,0.08,0.74,-0.47,crores,2,hand-read from page image (text); after tax; no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,profit_before_tax,591.82,481.36,269.73,1073.18,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,net_profit,436.19,362.07,194.49,798.26,crores,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates
+LAURUSLABS,consolidated,basic_eps,8.17,6.81,3.61,14.98,rupees,2,hand-read from page image (text); no exceptional line; re-read after check 1: auto pass took associates sign wrong and net profit before associates

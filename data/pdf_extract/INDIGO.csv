@@ -1,0 +1,17 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+INDIGO,consolidated,revenue_from_operations,233638,245841,185553,479479,millions,3,auto (text layer); row: a. Revenue from operations                                  ; all columns checked against page image
+INDIGO,consolidated,other_income,9481,10300,10442,19781,millions,3,auto (text layer); row: b. Other income                                             ; all columns checked against page image
+INDIGO,consolidated,total_income,243119,256141,195995,499260,millions,3,auto (text layer); row: Total income                                                ; all columns checked against page image
+INDIGO,consolidated,total_expenses,261884,258525,220812,520409,millions,3,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+INDIGO,consolidated,exceptional_items,0,0,0,0,millions,3,auto (text layer); row: 4.   Exceptional items                                      ; all columns checked against page image
+INDIGO,consolidated,profit_before_tax,-18765,-2384,-24817,-21149,millions,3,auto (text layer); row: 5.   Profit / (loss) before tax for the period / year (3-4) ; all columns checked against page image
+INDIGO,consolidated,net_profit,-18791,-2380,-25821,-21171,millions,3,auto (text layer); row: 7.   Profit / (loss) for the period / year (5-6)            ; all columns checked against page image
+INDIGO,consolidated,basic_eps,-48.58,-6.15,-66.79,-54.73,rupees,3,auto (text layer); row: a. Basic (Rs.)                                              ; all columns checked against page image
+INDIGO,standalone,revenue_from_operations,233638,245841,185553,479479,millions,10,auto (text layer); row: a. Revenue from operations                                  ; all columns checked against page image
+INDIGO,standalone,other_income,9378,10380,10450,19758,millions,10,auto (text layer); row: b. Other income                                             ; all columns checked against page image
+INDIGO,standalone,total_income,243016,256221,196003,499237,millions,10,auto (text layer); row: Total income                                                ; all columns checked against page image
+INDIGO,standalone,total_expenses,263568,260040,221141,523608,millions,10,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+INDIGO,standalone,exceptional_items,0,0,0,0,millions,10,auto (text layer); row: 4. Exceptional items                                        ; all columns checked against page image
+INDIGO,standalone,profit_before_tax,-20552,-3819,-25138,-24371,millions,10,auto (text layer); row: 5. Profit / (loss) before tax for the period / year (3-4)   ; all columns checked against page image
+INDIGO,standalone,net_profit,-20552,-3815,-26141,-24367,millions,10,auto (text layer); row: 7. Profit / (loss) for the period / year (5-6)              ; all columns checked against page image
+INDIGO,standalone,basic_eps,-53.15,-9.87,-67.63,-63.02,rupees,10,auto (text layer); row: a. Basic (Rs.)                                              ; all columns checked against page image

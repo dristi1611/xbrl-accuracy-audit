@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+FORTIS,standalone,revenue_from_operations,51941,48945,45581,100886,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,other_income,9150,1892,9242,11042,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,total_income,61091,50837,54823,111928,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,total_expenses,47206,46236,43508,93442,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,exceptional_items,706,1330,2183,2036,lakhs,4,hand-read from page image (text); loss negative; exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,profit_before_tax,14591,5931,13498,20522,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,net_profit,12991,4778,12509,17769,lakhs,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,standalone,basic_eps,1.72,0.63,1.65,2.35,rupees,4,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 5
+FORTIS,consolidated,revenue_from_operations,273483,254503,233144,527986,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,other_income,671,1447,2258,2118,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,total_income,274154,255950,235402,530104,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,total_expenses,231827,221023,195583,452850,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,share_of_associates_jv,606,438,368,1044,lakhs,25,hand-read from page image (text); above PBT; exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,exceptional_items,298,953,2353,1251,lakhs,25,hand-read from page image (text); loss negative; exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,profit_before_tax,43231,36318,42540,79549,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,net_profit,32047,27280,32882,59327,lakhs,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26
+FORTIS,consolidated,basic_eps,4.14,3.53,4.26,7.67,rupees,25,hand-read from page image (text); exceptional printed as gain/(loss) and added; EPS on page 26

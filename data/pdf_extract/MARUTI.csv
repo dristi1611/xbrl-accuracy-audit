@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+MARUTI,standalone,revenue_from_operations,533402,524557,423323,1057959,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,other_income,4298,18737,9661,22029,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,total_income,537700,543294,432984,1079988,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,total_expenses,506042,499881,390075,1004917,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,exceptional_items,0,0,0,0,millions,2,hand-read from page image (scanned); loss negative; revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,profit_before_tax,31658,43413,42909,75071,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,net_profit,24149,33521,33028,57670,millions,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,standalone,basic_eps,76.81,106.62,105.05,183.43,rupees,2,hand-read from page image (scanned); revenue = 'Total revenue from operations'; no exceptional line
+MARUTI,consolidated,revenue_from_operations,533555,524698,423442,1058253,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,other_income,4136,18740,9462,21870,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,total_income,537691,543438,432904,1080123,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,total_expenses,506190,500003,390184,1005187,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,share_of_associates_jv,690,977,673,1667,millions,6,"hand-read from page image (scanned); above PBT; associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,exceptional_items,0,0,0,0,millions,6,"hand-read from page image (scanned); loss negative; associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,profit_before_tax,32191,44412,43393,76603,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,net_profit,24661,34469,33490,59130,millions,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"
+MARUTI,consolidated,basic_eps,78.44,109.63,106.52,188.07,rupees,6,"hand-read from page image (scanned); associates (607) and joint ventures (83) shown on two lines, summed here"

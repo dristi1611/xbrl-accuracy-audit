@@ -1,0 +1,15 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+AFFLE,standalone,revenue_from_operations,2643.95,2396.05,2198.30,5040.00,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,other_income,188.72,195.71,183.67,384.43,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,total_income,2832.67,2591.76,2381.97,5424.43,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,total_expenses,2139.22,2043.49,1979.14,4182.71,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,profit_before_tax,693.45,548.27,402.83,1241.72,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,net_profit,516.45,408.38,300.06,924.83,millions,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,standalone,basic_eps,3.67,2.90,2.14,6.58,rupees,6,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,revenue_from_operations,7835.93,7471.64,6467.18,15307.57,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,other_income,200.47,250.41,222.75,450.88,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,total_income,8036.40,7722.05,6689.93,15758.45,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,total_expenses,6441.85,6144.18,5336.59,12586.03,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,profit_before_tax,1594.55,1577.87,1353.34,3172.42,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,net_profit,1297.89,1284.39,1105.13,2582.28,millions,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines
+AFFLE,consolidated,basic_eps,9.23,9.13,7.88,18.36,rupees,12,hand-read from page image (OCR text layer unusable); no exceptional or associate lines

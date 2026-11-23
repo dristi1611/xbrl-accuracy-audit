@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+PRESTIGE,standalone,revenue_from_operations,6645,7490,7982,14135,millions,4,auto (text layer); row: Revenue from operations                                     ; all columns checked against page image
+PRESTIGE,standalone,other_income,1293,636,723,1929,millions,4,auto (text layer); row: Other income                                                ; all columns checked against page image
+PRESTIGE,standalone,total_income,7938,8126,8705,16064,millions,4,auto (text layer); row: Total income                                                ; all columns checked against page image
+PRESTIGE,standalone,total_expenses,7406,8023,8437,15429,millions,4,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+PRESTIGE,standalone,exceptional_items,0,0,0,0,millions,4,auto (text layer); row: 4    Exceptional items                                      ; all columns checked against page image
+PRESTIGE,standalone,profit_before_tax,532,103,268,635,millions,4,auto (text layer); row: 5    Profit before tax (3+4)                                ; all columns checked against page image
+PRESTIGE,standalone,net_profit,282,114,201,396,millions,4,auto (text layer); row: 7     Net profit for the period/ year (5-6)                 ; all columns checked against page image
+PRESTIGE,standalone,basic_eps,0.66,0.26,0.47,0.92,rupees,4,auto (text layer); row: a) Basic                                                    ; all columns checked against page image
+PRESTIGE,consolidated,revenue_from_operations,20602,26751,24317,47353,millions,13,auto (text layer); row: Revenue from operations                                     ; all columns checked against page image
+PRESTIGE,consolidated,other_income,1620,1605,2661,3225,millions,13,auto (text layer); row: Other income                                                ; all columns checked against page image
+PRESTIGE,consolidated,total_income,22222,28356,26978,50578,millions,13,auto (text layer); row: Total income                                                ; all columns checked against page image
+PRESTIGE,consolidated,total_expenses,18597,24596,21256,43193,millions,13,auto (text layer); row: Total expenses                                              ; all columns checked against page image
+PRESTIGE,consolidated,share_of_associates_jv,17,-103,118,-86,millions,13,auto (text layer); row: 6    Share of profit / (loss) from joint ventures and associ; above PBT; all columns checked against page image
+PRESTIGE,consolidated,exceptional_items,0,0,0,0,millions,13,auto (text layer); row: 4    Exceptional items                                      ; all columns checked against page image
+PRESTIGE,consolidated,profit_before_tax,3642,3657,5840,7299,millions,13,auto (text layer); row: 7    Profit before tax (5+6)                                ; all columns checked against page image
+PRESTIGE,consolidated,net_profit,2562,2714,4574,5276,millions,13,auto (text layer); row: 9    Net profit for the period/ year (7-8)                  ; all columns checked against page image
+PRESTIGE,consolidated,basic_eps,5.20,5.48,9.99,10.68,rupees,13,auto (text layer); row: a) Basic                                                    ; all columns checked against page image

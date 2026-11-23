@@ -1,0 +1,19 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+TIINDIA,standalone,revenue_from_operations,2710.49,2366.20,2118.96,5076.69,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,other_operating_income,0,0,2.40,0,crores,4,hand-read from page image (scanned); EXTRA LINE (not one of the 9); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,other_income,30.55,17.41,20.51,47.96,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,total_income,2741.04,2383.61,2141.87,5124.65,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,total_expenses,2487.88,2170.87,1891.43,4658.75,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,exceptional_items,0,0,0,0,crores,4,hand-read from page image (scanned); loss negative; revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,profit_before_tax,253.16,212.74,250.44,465.90,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,net_profit,188.16,158.62,186.75,346.78,crores,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,standalone,basic_eps,9.72,8.19,9.65,17.92,rupees,4,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; extra income line is 'Fair value gain on CCPS in subsidiary'
+TIINDIA,consolidated,revenue_from_operations,7330.31,6215.33,5522.64,13545.64,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,other_income,111.42,111.97,92.71,223.39,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,total_income,7441.73,6327.30,5615.35,13769.03,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,total_expenses,6798.69,5866.40,5156.29,12665.09,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,share_of_associates_jv,0.78,-0.12,-0.10,0.66,crores,13,hand-read from page image (scanned); above PBT; revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,exceptional_items,0,0,0,0,crores,13,hand-read from page image (scanned); loss negative; revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,profit_before_tax,643.82,460.78,458.96,1104.60,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,net_profit,420.58,293.96,302.05,714.54,crores,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued
+TIINDIA,consolidated,basic_eps,12.87,8.71,9.65,21.57,rupees,13,hand-read from page image (scanned); revenue = 'Total Revenue from Operations'; EPS continuing and discontinued

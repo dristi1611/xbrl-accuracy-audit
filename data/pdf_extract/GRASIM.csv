@@ -1,0 +1,18 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+GRASIM,standalone,revenue_from_operations,12746.50,11794.71,9610.34,24541.21,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,other_income,4120.74,143.97,1419.40,4264.71,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,total_income,16867.24,11938.68,11029.74,28805.92,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,total_expenses,13101.80,11641.17,9948.89,24742.97,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,exceptional_items,-825.43,0,0,-825.43,crores,5,"hand-read from page image (scanned); loss negative; exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,profit_before_tax,2940.01,297.51,1080.85,3237.52,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,net_profit,2306.16,246.65,804.55,2552.81,crores,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,standalone,basic_eps,34.00,3.64,11.86,37.64,rupees,5,"hand-read from page image (scanned); exceptional printed (825.43) and added in 'PBT (5+6)', i.e. a loss"
+GRASIM,consolidated,revenue_from_operations,50105.18,48716.20,39899.58,98821.38,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,other_income,333.61,305.15,345.26,638.76,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,total_income,50438.79,49021.35,40244.84,99460.14,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,total_expenses,47037.72,43851.12,37795.74,90888.84,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,share_of_associates_jv,67.87,26.14,139.24,94.01,crores,19,hand-read from page image (scanned); above PBT; EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,exceptional_items,-773.02,-13.25,0,-786.27,crores,19,hand-read from page image (scanned); loss negative; EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,profit_before_tax,2695.92,5183.12,2588.34,7879.04,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,net_profit,1029.42,3846.28,1576.32,4875.70,crores,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF
+GRASIM,consolidated,basic_eps,-3.45,31.64,8.76,28.19,rupees,19,hand-read from page image (scanned); EPS on page 20; Q2 FY26 column marked 'Restated' in the PDF

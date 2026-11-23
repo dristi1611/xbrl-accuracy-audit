@@ -1,0 +1,16 @@
+symbol,basis,line_item,current_quarter,preceding_quarter,same_quarter_last_year,current_half_year,unit,page,note
+PREMIERENE,standalone,revenue_from_operations,2526.56,1763.56,1926.27,4290.12,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,other_income,189.16,136.06,394.19,325.22,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,total_income,2715.72,1899.62,2320.46,4615.34,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,total_expenses,2241.21,1522.94,1610.42,3764.15,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,profit_before_tax,474.51,376.68,710.04,851.19,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,net_profit,359.70,286.94,551.05,646.64,millions,3,hand-read from page image (text); no exceptional line
+PREMIERENE,standalone,basic_eps,0.80,0.64,1.23,1.43,rupees,3,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,revenue_from_operations,26318.52,24625.94,18368.65,50944.46,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,other_income,241.92,450.43,845.01,692.35,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,total_income,26560.44,25076.37,19213.66,51636.81,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,total_expenses,20549.20,18877.96,14541.17,39427.16,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,share_of_associates_jv,1.46,5.41,-0.36,6.87,millions,10,hand-read from page image (text); above PBT; no exceptional line
+PREMIERENE,consolidated,profit_before_tax,6012.70,6203.82,4672.13,12216.52,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,net_profit,4623.86,4719.18,3534.39,9343.04,millions,10,hand-read from page image (text); no exceptional line
+PREMIERENE,consolidated,basic_eps,10.24,10.45,7.89,20.70,rupees,10,hand-read from page image (text); no exceptional line

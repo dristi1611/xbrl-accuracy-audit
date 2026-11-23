@@ -47,17 +47,19 @@ def main():
     con = sqlite3.connect(DB)
     con.executescript((ROOT / "sql" / "schema.sql").read_text())
 
-    # Companies. File names drop '&' from symbols (GVT&D -> GVTD), so key on that.
+    # Companies: the 40 main names in the sample (spares were not needed).
+    # File names drop '&' from symbols (GVT&D -> GVTD, M&M -> MM), so key on that.
     company_id = {}
     for r in read(DATA / "sample.csv"):
-        if r["pilot"] != "Y":
+        if r["role"] != "main":
             continue
         cur = con.execute(
             "INSERT INTO companies (symbol, company_name, isin, industry, size_group, pilot) VALUES (?,?,?,?,?,?)",
             (r["symbol"], r["company_name"], r["isin"], r["industry"], r["size_group"], r["pilot"]))
         company_id[r["symbol"].replace("&", "")] = cur.lastrowid
 
-    log = {r["local_file"]: r for r in read(DATA / "download_log_pilot.csv")}
+    log = {r["local_file"]: r for name in ("download_log_pilot.csv", "download_log_full.csv")
+           for r in read(DATA / name)}
 
     def filing_date(file):
         d = log[file]["exchange_datetime"][:11]           # e.g. 28-Oct-2026
@@ -65,15 +67,23 @@ def main():
         return datetime.strptime(d.title(), "%d-%b-%Y").date().isoformat()
 
     # XBRL filings and figures
+    xfilings = read(DATA / "xbrl_filings.csv")
+    # A truncated file can lose its LevelOfRounding field; fall back to the unit the
+    # same company uses in its other filings (value_inr is unaffected either way).
+    usual_unit = {}
+    for r in xfilings:
+        if r["level_of_rounding"]:
+            usual_unit.setdefault(r["symbol"], XBRL_UNIT[r["level_of_rounding"]])
     filing_id = {}
-    for r in read(DATA / "xbrl_filings.csv"):
-        unit = XBRL_UNIT[r["level_of_rounding"]]
+    for r in xfilings:
+        unit = XBRL_UNIT.get(r["level_of_rounding"]) or usual_unit[r["symbol"]]
         cur = con.execute(
             """INSERT INTO filings (company_id, source, exchange, basis, quarter, is_revision,
-                                    unit_reported, filing_date, link, local_file)
-               VALUES (?, 'xbrl', 'NSE', ?, ?, ?, ?, ?, ?, ?)""",
+                                    unit_reported, filing_date, link, local_file, reporting_type, well_formed)
+               VALUES (?, 'xbrl', 'NSE', ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (company_id[r["symbol"]], r["basis"], r["quarter"], int(r["submission"] == "revision"),
-             unit, filing_date(r["file"]), log[r["file"]]["link"], "data/raw/" + r["file"]))
+             unit, filing_date(r["file"]), log[r["file"]]["link"], "data/raw/" + r["file"],
+             r["type_of_reporting_period"] or None, r["well_formed"]))
         filing_id[r["file"]] = (cur.lastrowid, unit)
 
     for r in read(DATA / "xbrl_figures.csv"):

@@ -35,7 +35,9 @@ CREATE TABLE IF NOT EXISTS filings (
     unit_reported     TEXT NOT NULL CHECK (unit_reported IN ('rupees', 'thousands', 'lakhs', 'millions', 'crores')),
     filing_date       TEXT NOT NULL,             -- YYYY-MM-DD
     link              TEXT NOT NULL,             -- where the file was downloaded from
-    local_file        TEXT                       -- path under data/raw/
+    local_file        TEXT,                      -- path under data/raw/
+    reporting_type    TEXT,                      -- XBRL TypeOfReportingPeriod as filed ('Quarterly', 'Half Yearly', ...)
+    well_formed       TEXT CHECK (well_formed IN ('Y', 'N'))   -- XBRL only: is the file valid XML as served
 );
 
 -- Rupees per reported unit, so conversions are written once, here.

@@ -37,6 +37,10 @@ OUT_FILINGS = ROOT / "data" / "xbrl_filings.csv"
 XBRLI = "{http://www.xbrl.org/2003/instance}"
 # Some standalone files carry large embedded attachments; huge_tree lets lxml read them.
 PARSER = etree.XMLParser(huge_tree=True)
+# A file that is not well-formed XML (found in the full run: one file NSE serves
+# truncated mid-tag) is read again in recover mode so whatever facts come before
+# the break are kept, and the filing is flagged well_formed = N.
+RECOVER = etree.XMLParser(huge_tree=True, recover=True)
 
 
 def localname(el):
@@ -87,7 +91,12 @@ def main():
     figures, filings = [], []
     for path in sorted(RAW.glob("*.xml")):
         symbol, quarter, basis, submission = path.stem.rsplit("_", 3)
-        root = etree.parse(str(path), PARSER).getroot()
+        try:
+            root = etree.parse(str(path), PARSER).getroot()
+            well_formed, parse_error = "Y", ""
+        except etree.XMLSyntaxError as err:
+            root = etree.parse(str(path), RECOVER).getroot()
+            well_formed, parse_error = "N", str(err)
         contexts = plain_duration_contexts(root)
 
         filings.append({
@@ -100,6 +109,9 @@ def main():
             "type_of_reporting_period": first_text(root, "TypeOfReportingPeriod"),
             "nature_of_report": first_text(root, "NatureOfReportStandaloneConsolidated"),
             "periods_found": ";".join(column_period(s, e) for s, e in sorted(set(contexts.values()))),
+            "well_formed": well_formed,
+            "parse_error": parse_error,
+            "bytes": path.stat().st_size,
         })
 
         for el in root:

@@ -116,6 +116,19 @@ def main():
                         (fid, r["line_item"], p, v, round(v * scale, 2), 0.5 * 10 ** -dec * scale,
                          f"page {r['page']}" + (f"; {r['note']}" if r["note"] else "")))
 
+    # Mark PDF figures checked by eye, from the ticked eye-check list. (The other PDF figures
+    # are confirmed by an exact match with the XBRL, an independent source; see check 1.)
+    eye = DATA.parent / "output" / "eye_check_list.csv"
+    if eye.exists():
+        for r in read(eye):
+            if r["checked_by_eye"].startswith("Y"):
+                con.execute(
+                    """UPDATE figures SET checked_by_eye = 1
+                       WHERE extracted_by = 'ai_pdf' AND line_item = ? AND column_period = ?
+                         AND filing_id IN (SELECT f.filing_id FROM filings f JOIN companies c USING (company_id)
+                                           WHERE f.source = 'pdf' AND c.symbol = ? AND f.basis = ?)""",
+                    (r["line_item"], r["column_period"], r["symbol"], r["basis"]))
+
     for r in read(DATA / "pdf_presentation.csv"):
         con.execute("INSERT INTO presentation VALUES (?,?,?)",
                     (company_id[r["symbol"]], r["basis"], int(r["associates_in_pbt"])))

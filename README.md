@@ -38,7 +38,7 @@ In this sample, **7 of 19 Q2 FY27 statements** (4 of 10 companies) had at least 
 | Company | Size | What differs | Category |
 |---|---|---|---|
 | Coal India | Large | Q2 XBRL filed as "Half Yearly": no Jul–Sep quarter figures at all, standalone or consolidated (17 values). Half-year figures match. | missing |
-| Emami | Small | Same pattern: "Half Yearly" XBRL with no quarter figures (17 values). Half-year figures match. | missing |
+| Emami | Small | Same pattern: "Half Yearly" XBRL with no quarter figures (17 values). Half-year figures match. Last year's Q2 was filed as "Quarterly". | missing |
 | Firstsource | Small | XBRL revenue includes the PDF's separate "other operating income, net" line. The gap equals that line exactly, and total income agrees. | wrong line |
 | Welspun Living | Small | Consolidated XBRL EPS is the PDF's EPS *before* exceptional items (1.86 vs 1.80 for the quarter). | wrong line |
 
@@ -64,7 +64,7 @@ Answered during week 1 (23 to 29 Nov 2026):
 ## How AI was used
 
 - An AI tool (Claude) wrote the first draft of the scripts and SQL. I reviewed, ran and committed every file and can explain each step.
-- An AI tool (Claude) read the results tables from the PDFs, from page images for scanned or OCR'd PDFs and from the text layer for native ones, into `data/pdf_extract/*.csv`, with the page number for every row. All 95 arithmetic checks pass. Every extracted value is then checked by eye against the PDF (`figures.checked_by_eye`, 0 until done).
+- An AI tool (Claude) read the results tables from the PDFs, from page images for scanned or OCR'd PDFs and from the text layer for native ones, into `data/pdf_extract/*.csv`, with the page number for every row. All 95 arithmetic checks pass. The 282 values that exactly match the XBRL are confirmed by an independent source. The other 362 got a second read: 212 by a fresh OCR pass that found each value in the right row, and the rest by re-reading the page image or text layer (`output/eye_check_list.csv`, column `claude_second_read`). The second read found no corrections. My own eye check is recorded in the `checked_by_eye` column.
 - An AI tool proposed the category and note for each exception. Each was verified against the raw XBRL and the PDF.
 
 ## Data and limits

@@ -28,12 +28,12 @@ REVIEW = {
         "missing",
         "Q2 FY27 XBRL filed with TypeOfReportingPeriod 'Half Yearly': it holds Apr-Sep figures only, "
         "so no Jul-Sep quarter value exists in the XBRL. The PDF reports the quarter. "
-        "Half-year figures match the PDF."),
+        "Half-year figures match the PDF. Same quarter last year was filed as 'Quarterly'."),
     ("FSL", "revenue_from_operations"): (
         "wrong_line",
         "XBRL RevenueFromOperations equals the PDF's revenue plus its separate line 'Other operating income, net' "
-        "(a negative amount). The gap equals that line exactly, and total income agrees. The same XBRL file's "
-        "segment section (SegmentRevenueFromOperations) carries the PDF revenue figure."),
+        "(a negative amount). The gap equals that line exactly, and total income agrees. In the consolidated "
+        "file, the segment section (SegmentRevenueFromOperations) carries the PDF revenue figure."),
     ("WELSPUNLIV", "basic_eps"): (
         "wrong_line",
         "XBRL basic EPS (1.86 quarter, 3.55 half-year) equals the PDF's 'Basic EPS before exceptional items'. "

@@ -128,16 +128,18 @@ def main():
 
     # Mark PDF figures checked by eye, from the ticked eye-check list. (The other PDF figures
     # are confirmed by an exact match with the XBRL, an independent source; see check 1.)
-    eye = DATA.parent / "output" / "eye_check_list.csv"
-    if eye.exists():
+    for name in ("eye_check_list.csv", "eye_check_list_full.csv"):
+        eye = DATA.parent / "output" / name
+        if not eye.exists():
+            continue
         for r in read(eye):
             if r["checked_by_eye"].startswith("Y"):
-                con.execute(
-                    """UPDATE figures SET checked_by_eye = 1
-                       WHERE extracted_by = 'ai_pdf' AND line_item = ? AND column_period = ?
-                         AND filing_id IN (SELECT f.filing_id FROM filings f JOIN companies c USING (company_id)
-                                           WHERE f.source = 'pdf' AND c.symbol = ? AND f.basis = ?)""",
-                    (r["line_item"], r["column_period"], r["symbol"], r["basis"]))
+                    con.execute(
+                        """UPDATE figures SET checked_by_eye = 1
+                           WHERE extracted_by = 'ai_pdf' AND line_item = ? AND column_period = ?
+                             AND filing_id IN (SELECT f.filing_id FROM filings f JOIN companies c USING (company_id)
+                                               WHERE f.source = 'pdf' AND REPLACE(c.symbol, '&', '') = REPLACE(?, '&', '') AND f.basis = ?)""",
+                        (r["line_item"], r["column_period"], r["symbol"], r["basis"]))
 
     for r in read(DATA / "pdf_presentation.csv"):
         con.execute("INSERT INTO presentation VALUES (?,?,?)",

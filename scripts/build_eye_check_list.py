@@ -29,6 +29,13 @@ def main():
             if r["status"] in ("match", "rounding"):
                 confirmed.add((r["symbol"].replace("&", ""), r["basis"], r["line_item"], r["column_period"]))
 
+    # keep ticks already recorded in an earlier version of the list
+    listfile = ROOT / "output" / "eye_check_list_full.csv"
+    ticked = {}
+    if listfile.exists():
+        for r in csv.DictReader(open(listfile)):
+            ticked[(r["symbol"], r["basis"], r["line_item"], r["column_period"], r["value_as_printed"])] = r["checked_by_eye"]
+
     out, total = [], 0
     for path in sorted((ROOT / "data" / "pdf_extract").glob("*.csv")):
         for r in csv.DictReader(open(path)):
@@ -40,9 +47,10 @@ def main():
                     continue
                 out.append({"symbol": r["symbol"], "basis": r["basis"], "line_item": r["line_item"],
                             "column_period": col, "value_as_printed": r[col], "unit": r["unit"],
-                            "page": r["page"], "how_read": r["note"], "checked_by_eye": ""})
+                            "page": r["page"], "how_read": r["note"],
+                            "checked_by_eye": ticked.get((r["symbol"], r["basis"], r["line_item"], col, r[col]), "")})
 
-    with open(ROOT / "output" / "eye_check_list_full.csv", "w", newline="") as f:
+    with open(listfile, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
         w.writeheader()
         w.writerows(out)

@@ -4,7 +4,7 @@ When a listed company files its quarterly results, do the machine-readable XBRL 
 
 Data firms and banks load XBRL straight into their databases, so a wrong unit or sign in the XBRL reaches every analyst downstream. This project reconciles the XBRL and PDF versions of Q2 FY27 (July to September 2026) results for a random sample of NSE-listed companies. It sorts every gap by root cause and logs each one as an exception.
 
-**Status:** checks 1 to 3 run on all 40 companies. The extracted PDF values that no XBRL figure confirms (158) are waiting for my eye check. Publishing on 13 Dec 2026.
+**Status:** checks 1 to 3 run on all 40 companies. Every extracted PDF value is either confirmed by an XBRL figure or checked by eye. Publishing on 13 Dec 2026.
 
 ## Sample
 
@@ -95,7 +95,7 @@ Answered during week 1 (23 to 29 Nov 2026):
 - An AI tool (Claude) wrote the first draft of the scripts and SQL. I reviewed, ran and committed every file and can explain each step.
 - An AI tool (Claude) read the results tables from the PDFs into `data/pdf_extract/*.csv`, with the page number for every row. For native PDFs it read the text layer; for scanned ones, page images. All 390 arithmetic checks pass (78 statements).
 - Pilot (10 companies): the 282 values that exactly match the XBRL are confirmed by an independent source. The other 362 got a second read (`output/eye_check_list.csv`, column `claude_second_read`) and my eye check (`checked_by_eye`).
-- Full run (30 more companies): 1,794 of 1,952 values match an XBRL figure in check 1 or check 3. The other 158 are in `output/eye_check_list_full.csv` for my eye check. 18 statements were first read by an automatic text pass. All of them were then compared with the page image, and 7 needed a correction: a value cut short, a column shifted, EPS before exceptional items taken instead of after, continuing-operations profit taken instead of total, and an after-tax associates line read with the wrong sign. The arithmetic checks could not catch these because they all sit below PBT. The XBRL comparison caught 6, and the page-image check caught 1. That is why every unconfirmed value still gets a check by eye.
+- Full run (30 more companies): 1,794 of 1,952 values match an XBRL figure in check 1 or check 3. I checked the other 158 by eye on 24 Nov 2026 (`output/eye_check_list_full.csv`). 18 statements were first read by an automatic text pass. All of them were then compared with the page image, and 7 needed a correction: a value cut short, a column shifted, EPS before exceptional items taken instead of after, continuing-operations profit taken instead of total, and an after-tax associates line read with the wrong sign. The arithmetic checks could not catch these because they all sit below PBT. The XBRL comparison caught 6, and the page-image check caught 1. That is why every unconfirmed value still gets a check by eye.
 - An AI tool proposed the category and note for each exception. Each was verified against the raw XBRL and the PDF.
 
 ## Data and limits

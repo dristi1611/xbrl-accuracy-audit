@@ -31,10 +31,12 @@ def main():
 
     # keep ticks already recorded in an earlier version of the list
     listfile = ROOT / "output" / "eye_check_list_full.csv"
-    ticked = {}
+    ticked, second = {}, {}
     if listfile.exists():
         for r in csv.DictReader(open(listfile)):
-            ticked[(r["symbol"], r["basis"], r["line_item"], r["column_period"], r["value_as_printed"])] = r["checked_by_eye"]
+            k = (r["symbol"], r["basis"], r["line_item"], r["column_period"], r["value_as_printed"])
+            ticked[k] = r["checked_by_eye"]
+            second[k] = r.get("claude_second_read", "")
 
     out, total = [], 0
     for path in sorted((ROOT / "data" / "pdf_extract").glob("*.csv")):
@@ -48,6 +50,7 @@ def main():
                 out.append({"symbol": r["symbol"], "basis": r["basis"], "line_item": r["line_item"],
                             "column_period": col, "value_as_printed": r[col], "unit": r["unit"],
                             "page": r["page"], "how_read": r["note"],
+                            "claude_second_read": second.get((r["symbol"], r["basis"], r["line_item"], col, r[col]), ""),
                             "checked_by_eye": ticked.get((r["symbol"], r["basis"], r["line_item"], col, r[col]), "")})
 
     with open(listfile, "w", newline="") as f:

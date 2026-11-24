@@ -1,0 +1,9 @@
+symbol,size_group,quarter,basis,original_filed,revision_filed,hours_later,stated_reason,reporting_type_before,reporting_type_after,original_valid_xml,figures_changed,figures_added,figures_removed,figures_unchanged,line_items_affected
+ADANIPORTS,Large,Q1FY27,consolidated,2026-07-29 20:24:18,2026-07-29 20:26:16,0.0,(none given),Quarterly,Quarterly,Y,0,0,0,9,none
+ADANIPORTS,Large,Q1FY27,standalone,2026-07-29 20:23:47,2026-07-29 20:26:15,0.0,(none given),Quarterly,Quarterly,Y,0,0,0,9,none
+LAURUSLABS,Mid,Q2FY26,consolidated,2025-10-23 23:37:54,2026-01-23 20:23:12,2204.8,Revised filing due to incorrect selection of Reporting Type,Half Yearly,Quarterly,Y,0,9,0,9,"basic_eps,exceptional_items,net_profit,other_income,profit_before_tax,revenue_from_operations,share_of_associates_jv,total_expenses,total_income"
+LAURUSLABS,Mid,Q2FY26,standalone,2025-10-23 23:36:54,2026-01-23 20:21:02,2204.7,Revised filing due to incorrect selection of Reporting Type,(unreadable),Quarterly,N,0,18,0,0,"basic_eps,exceptional_items,net_profit,other_income,profit_before_tax,revenue_from_operations,share_of_associates_jv,total_expenses,total_income"
+PRESTIGE,Mid,Q1FY27,consolidated,2026-07-29 20:01:41,2026-07-29 20:12:12,0.2,(none given),Quarterly,Quarterly,Y,0,0,0,9,none
+PRESTIGE,Mid,Q1FY27,standalone,2026-07-29 20:00:11,2026-07-29 20:11:12,0.2,(none given),Quarterly,Quarterly,Y,0,0,0,9,none
+RUBICON,Small,Q2FY27,consolidated,2026-11-05 17:08:06,2026-11-05 17:16:24,0.1,(none given),Quarterly,Quarterly,Y,0,0,0,18,none
+RUBICON,Small,Q2FY27,standalone,2026-11-05 17:07:36,2026-11-05 17:23:38,0.3,(none given),Quarterly,Quarterly,Y,0,0,0,18,none

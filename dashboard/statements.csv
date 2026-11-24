@@ -1,0 +1,157 @@
+statement_key,company,symbol,size_group,check,basis,has_exception,exceptions
+ACC|Consolidated|Check 1: XBRL vs PDF,ACC Ltd.,ACC,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,2
+ACC|Standalone|Check 1: XBRL vs PDF,ACC Ltd.,ACC,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,1,2
+ADANIPORTS|Consolidated|Check 1: XBRL vs PDF,Adani Ports and Special Economic Zone Ltd.,ADANIPORTS,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+ADANIPORTS|Standalone|Check 1: XBRL vs PDF,Adani Ports and Special Economic Zone Ltd.,ADANIPORTS,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+AFCONS|Consolidated|Check 1: XBRL vs PDF,Afcons Infrastructure Ltd.,AFCONS,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,1
+AFCONS|Standalone|Check 1: XBRL vs PDF,Afcons Infrastructure Ltd.,AFCONS,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,0,0
+AFFLE|Consolidated|Check 1: XBRL vs PDF,Affle 3i Ltd.,AFFLE,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,0,0
+AFFLE|Standalone|Check 1: XBRL vs PDF,Affle 3i Ltd.,AFFLE,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,0,0
+AJANTPHARM|Consolidated|Check 1: XBRL vs PDF,Ajanta Pharmaceuticals Ltd.,AJANTPHARM,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+AJANTPHARM|Standalone|Check 1: XBRL vs PDF,Ajanta Pharmaceuticals Ltd.,AJANTPHARM,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+BAJAJ-AUTO|Consolidated|Check 1: XBRL vs PDF,Bajaj Auto Ltd.,BAJAJ-AUTO,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+BAJAJ-AUTO|Standalone|Check 1: XBRL vs PDF,Bajaj Auto Ltd.,BAJAJ-AUTO,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+BEL|Consolidated|Check 1: XBRL vs PDF,Bharat Electronics Ltd.,BEL,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+BEL|Standalone|Check 1: XBRL vs PDF,Bharat Electronics Ltd.,BEL,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+BLUESTARCO|Consolidated|Check 1: XBRL vs PDF,Blue Star Ltd.,BLUESTARCO,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+BLUESTARCO|Standalone|Check 1: XBRL vs PDF,Blue Star Ltd.,BLUESTARCO,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+COALINDIA|Consolidated|Check 1: XBRL vs PDF,Coal India Ltd.,COALINDIA,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,1,9
+COALINDIA|Standalone|Check 1: XBRL vs PDF,Coal India Ltd.,COALINDIA,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,1,8
+CONCOR|Consolidated|Check 1: XBRL vs PDF,Container Corporation of India Ltd.,CONCOR,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+CONCOR|Standalone|Check 1: XBRL vs PDF,Container Corporation of India Ltd.,CONCOR,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+EICHERMOT|Consolidated|Check 1: XBRL vs PDF,Eicher Motors Ltd.,EICHERMOT,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+EICHERMOT|Standalone|Check 1: XBRL vs PDF,Eicher Motors Ltd.,EICHERMOT,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+EMAMILTD|Consolidated|Check 1: XBRL vs PDF,Emami Ltd.,EMAMILTD,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,9
+EMAMILTD|Standalone|Check 1: XBRL vs PDF,Emami Ltd.,EMAMILTD,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,1,8
+ETERNAL|Consolidated|Check 1: XBRL vs PDF,Eternal Ltd.,ETERNAL,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+ETERNAL|Standalone|Check 1: XBRL vs PDF,Eternal Ltd.,ETERNAL,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+FORTIS|Consolidated|Check 1: XBRL vs PDF,Fortis Healthcare Ltd.,FORTIS,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+FORTIS|Standalone|Check 1: XBRL vs PDF,Fortis Healthcare Ltd.,FORTIS,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+FSL|Consolidated|Check 1: XBRL vs PDF,Firstsource Solutions Ltd.,FSL,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,2
+FSL|Standalone|Check 1: XBRL vs PDF,Firstsource Solutions Ltd.,FSL,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,1,2
+GALLANTT|Consolidated|Check 1: XBRL vs PDF,Gallantt Ispat Ltd.,GALLANTT,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,0,0
+GRASIM|Consolidated|Check 1: XBRL vs PDF,Grasim Industries Ltd.,GRASIM,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+GRASIM|Standalone|Check 1: XBRL vs PDF,Grasim Industries Ltd.,GRASIM,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+GVT&D|Standalone|Check 1: XBRL vs PDF,GE Vernova T&D India Ltd.,GVT&D,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+HCLTECH|Consolidated|Check 1: XBRL vs PDF,HCL Technologies Ltd.,HCLTECH,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+HCLTECH|Standalone|Check 1: XBRL vs PDF,HCL Technologies Ltd.,HCLTECH,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+INDIGO|Consolidated|Check 1: XBRL vs PDF,InterGlobe Aviation Ltd.,INDIGO,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+INDIGO|Standalone|Check 1: XBRL vs PDF,InterGlobe Aviation Ltd.,INDIGO,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+JSWSTEEL|Consolidated|Check 1: XBRL vs PDF,JSW Steel Ltd.,JSWSTEEL,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+JSWSTEEL|Standalone|Check 1: XBRL vs PDF,JSW Steel Ltd.,JSWSTEEL,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+LAURUSLABS|Consolidated|Check 1: XBRL vs PDF,Laurus Labs Ltd.,LAURUSLABS,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+LAURUSLABS|Standalone|Check 1: XBRL vs PDF,Laurus Labs Ltd.,LAURUSLABS,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+LTTS|Consolidated|Check 1: XBRL vs PDF,L&T Technology Services Ltd.,LTTS,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+LTTS|Standalone|Check 1: XBRL vs PDF,L&T Technology Services Ltd.,LTTS,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+LUPIN|Consolidated|Check 1: XBRL vs PDF,Lupin Ltd.,LUPIN,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+LUPIN|Standalone|Check 1: XBRL vs PDF,Lupin Ltd.,LUPIN,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+M&M|Consolidated|Check 1: XBRL vs PDF,Mahindra & Mahindra Ltd.,M&M,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,1,2
+M&M|Standalone|Check 1: XBRL vs PDF,Mahindra & Mahindra Ltd.,M&M,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,1,2
+MARUTI|Consolidated|Check 1: XBRL vs PDF,Maruti Suzuki India Ltd.,MARUTI,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+MARUTI|Standalone|Check 1: XBRL vs PDF,Maruti Suzuki India Ltd.,MARUTI,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+NYKAA|Consolidated|Check 1: XBRL vs PDF,FSN E-Commerce Ventures Ltd.,NYKAA,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+NYKAA|Standalone|Check 1: XBRL vs PDF,FSN E-Commerce Ventures Ltd.,NYKAA,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+PIIND|Consolidated|Check 1: XBRL vs PDF,PI Industries Ltd.,PIIND,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+PIIND|Standalone|Check 1: XBRL vs PDF,PI Industries Ltd.,PIIND,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+POWERGRID|Consolidated|Check 1: XBRL vs PDF,Power Grid Corporation of India Ltd.,POWERGRID,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+POWERGRID|Standalone|Check 1: XBRL vs PDF,Power Grid Corporation of India Ltd.,POWERGRID,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+PREMIERENE|Consolidated|Check 1: XBRL vs PDF,Premier Energies Ltd.,PREMIERENE,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+PREMIERENE|Standalone|Check 1: XBRL vs PDF,Premier Energies Ltd.,PREMIERENE,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+PRESTIGE|Consolidated|Check 1: XBRL vs PDF,Prestige Estates Projects Ltd.,PRESTIGE,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+PRESTIGE|Standalone|Check 1: XBRL vs PDF,Prestige Estates Projects Ltd.,PRESTIGE,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+RUBICON|Consolidated|Check 1: XBRL vs PDF,Rubicon Research Ltd.,RUBICON,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,0,0
+RUBICON|Standalone|Check 1: XBRL vs PDF,Rubicon Research Ltd.,RUBICON,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,0,0
+SWIGGY|Consolidated|Check 1: XBRL vs PDF,Swiggy Ltd.,SWIGGY,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+SWIGGY|Standalone|Check 1: XBRL vs PDF,Swiggy Ltd.,SWIGGY,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+TECHM|Consolidated|Check 1: XBRL vs PDF,Tech Mahindra Ltd.,TECHM,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,1,2
+TECHM|Standalone|Check 1: XBRL vs PDF,Tech Mahindra Ltd.,TECHM,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+TIINDIA|Consolidated|Check 1: XBRL vs PDF,Tube Investments of India Ltd.,TIINDIA,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+TIINDIA|Standalone|Check 1: XBRL vs PDF,Tube Investments of India Ltd.,TIINDIA,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+TRENT|Consolidated|Check 1: XBRL vs PDF,Trent Ltd.,TRENT,Large (Nifty 50),Check 1: XBRL vs PDF,Consolidated,0,0
+TRENT|Standalone|Check 1: XBRL vs PDF,Trent Ltd.,TRENT,Large (Nifty 50),Check 1: XBRL vs PDF,Standalone,0,0
+UNITDSPR|Consolidated|Check 1: XBRL vs PDF,United Spirits Ltd.,UNITDSPR,Mid (Midcap 150),Check 1: XBRL vs PDF,Consolidated,0,0
+UNITDSPR|Standalone|Check 1: XBRL vs PDF,United Spirits Ltd.,UNITDSPR,Mid (Midcap 150),Check 1: XBRL vs PDF,Standalone,0,0
+VEDPOWER|Consolidated|Check 1: XBRL vs PDF,Vedanta Power Ltd.,VEDPOWER,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,8
+VEDPOWER|Standalone|Check 1: XBRL vs PDF,Vedanta Power Ltd.,VEDPOWER,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,1,8
+VISL|Consolidated|Check 1: XBRL vs PDF,Vedanta Iron and Steel Ltd.,VISL,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,0,0
+VISL|Standalone|Check 1: XBRL vs PDF,Vedanta Iron and Steel Ltd.,VISL,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,0,0
+WELSPUNLIV|Consolidated|Check 1: XBRL vs PDF,Welspun Living Ltd.,WELSPUNLIV,Small (Smallcap 250),Check 1: XBRL vs PDF,Consolidated,1,2
+WELSPUNLIV|Standalone|Check 1: XBRL vs PDF,Welspun Living Ltd.,WELSPUNLIV,Small (Smallcap 250),Check 1: XBRL vs PDF,Standalone,0,0
+ACC|Consolidated|Check 3: restatement,ACC Ltd.,ACC,Small (Smallcap 250),Check 3: restatement,Consolidated,1,4
+ACC|Standalone|Check 3: restatement,ACC Ltd.,ACC,Small (Smallcap 250),Check 3: restatement,Standalone,1,4
+ADANIPORTS|Consolidated|Check 3: restatement,Adani Ports and Special Economic Zone Ltd.,ADANIPORTS,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+ADANIPORTS|Standalone|Check 3: restatement,Adani Ports and Special Economic Zone Ltd.,ADANIPORTS,Large (Nifty 50),Check 3: restatement,Standalone,1,7
+AFCONS|Consolidated|Check 3: restatement,Afcons Infrastructure Ltd.,AFCONS,Small (Smallcap 250),Check 3: restatement,Consolidated,1,1
+AFCONS|Standalone|Check 3: restatement,Afcons Infrastructure Ltd.,AFCONS,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+AFFLE|Consolidated|Check 3: restatement,Affle 3i Ltd.,AFFLE,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+AFFLE|Standalone|Check 3: restatement,Affle 3i Ltd.,AFFLE,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+AJANTPHARM|Consolidated|Check 3: restatement,Ajanta Pharmaceuticals Ltd.,AJANTPHARM,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+AJANTPHARM|Standalone|Check 3: restatement,Ajanta Pharmaceuticals Ltd.,AJANTPHARM,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+BAJAJ-AUTO|Consolidated|Check 3: restatement,Bajaj Auto Ltd.,BAJAJ-AUTO,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+BAJAJ-AUTO|Standalone|Check 3: restatement,Bajaj Auto Ltd.,BAJAJ-AUTO,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+BEL|Consolidated|Check 3: restatement,Bharat Electronics Ltd.,BEL,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+BEL|Standalone|Check 3: restatement,Bharat Electronics Ltd.,BEL,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+BLUESTARCO|Consolidated|Check 3: restatement,Blue Star Ltd.,BLUESTARCO,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+BLUESTARCO|Standalone|Check 3: restatement,Blue Star Ltd.,BLUESTARCO,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+COALINDIA|Consolidated|Check 3: restatement,Coal India Ltd.,COALINDIA,Large (Nifty 50),Check 3: restatement,Consolidated,1,6
+COALINDIA|Standalone|Check 3: restatement,Coal India Ltd.,COALINDIA,Large (Nifty 50),Check 3: restatement,Standalone,1,3
+CONCOR|Consolidated|Check 3: restatement,Container Corporation of India Ltd.,CONCOR,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+CONCOR|Standalone|Check 3: restatement,Container Corporation of India Ltd.,CONCOR,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+EICHERMOT|Consolidated|Check 3: restatement,Eicher Motors Ltd.,EICHERMOT,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+EICHERMOT|Standalone|Check 3: restatement,Eicher Motors Ltd.,EICHERMOT,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+EMAMILTD|Consolidated|Check 3: restatement,Emami Ltd.,EMAMILTD,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+EMAMILTD|Standalone|Check 3: restatement,Emami Ltd.,EMAMILTD,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+ETERNAL|Consolidated|Check 3: restatement,Eternal Ltd.,ETERNAL,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+ETERNAL|Standalone|Check 3: restatement,Eternal Ltd.,ETERNAL,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+FORTIS|Consolidated|Check 3: restatement,Fortis Healthcare Ltd.,FORTIS,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+FORTIS|Standalone|Check 3: restatement,Fortis Healthcare Ltd.,FORTIS,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+FSL|Consolidated|Check 3: restatement,Firstsource Solutions Ltd.,FSL,Small (Smallcap 250),Check 3: restatement,Consolidated,1,2
+FSL|Standalone|Check 3: restatement,Firstsource Solutions Ltd.,FSL,Small (Smallcap 250),Check 3: restatement,Standalone,1,2
+GALLANTT|Consolidated|Check 3: restatement,Gallantt Ispat Ltd.,GALLANTT,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+GRASIM|Consolidated|Check 3: restatement,Grasim Industries Ltd.,GRASIM,Large (Nifty 50),Check 3: restatement,Consolidated,1,4
+GRASIM|Standalone|Check 3: restatement,Grasim Industries Ltd.,GRASIM,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+GVT&D|Standalone|Check 3: restatement,GE Vernova T&D India Ltd.,GVT&D,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+HCLTECH|Consolidated|Check 3: restatement,HCL Technologies Ltd.,HCLTECH,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+HCLTECH|Standalone|Check 3: restatement,HCL Technologies Ltd.,HCLTECH,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+INDIGO|Consolidated|Check 3: restatement,InterGlobe Aviation Ltd.,INDIGO,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+INDIGO|Standalone|Check 3: restatement,InterGlobe Aviation Ltd.,INDIGO,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+JSWSTEEL|Consolidated|Check 3: restatement,JSW Steel Ltd.,JSWSTEEL,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+JSWSTEEL|Standalone|Check 3: restatement,JSW Steel Ltd.,JSWSTEEL,Large (Nifty 50),Check 3: restatement,Standalone,1,14
+LAURUSLABS|Consolidated|Check 3: restatement,Laurus Labs Ltd.,LAURUSLABS,Mid (Midcap 150),Check 3: restatement,Consolidated,1,8
+LAURUSLABS|Standalone|Check 3: restatement,Laurus Labs Ltd.,LAURUSLABS,Mid (Midcap 150),Check 3: restatement,Standalone,1,7
+LTTS|Consolidated|Check 3: restatement,L&T Technology Services Ltd.,LTTS,Mid (Midcap 150),Check 3: restatement,Consolidated,1,5
+LTTS|Standalone|Check 3: restatement,L&T Technology Services Ltd.,LTTS,Mid (Midcap 150),Check 3: restatement,Standalone,1,5
+LUPIN|Consolidated|Check 3: restatement,Lupin Ltd.,LUPIN,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+LUPIN|Standalone|Check 3: restatement,Lupin Ltd.,LUPIN,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+M&M|Consolidated|Check 3: restatement,Mahindra & Mahindra Ltd.,M&M,Large (Nifty 50),Check 3: restatement,Consolidated,1,2
+M&M|Standalone|Check 3: restatement,Mahindra & Mahindra Ltd.,M&M,Large (Nifty 50),Check 3: restatement,Standalone,1,2
+MARUTI|Consolidated|Check 3: restatement,Maruti Suzuki India Ltd.,MARUTI,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+MARUTI|Standalone|Check 3: restatement,Maruti Suzuki India Ltd.,MARUTI,Large (Nifty 50),Check 3: restatement,Standalone,1,7
+NYKAA|Consolidated|Check 3: restatement,FSN E-Commerce Ventures Ltd.,NYKAA,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+NYKAA|Standalone|Check 3: restatement,FSN E-Commerce Ventures Ltd.,NYKAA,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+PIIND|Consolidated|Check 3: restatement,PI Industries Ltd.,PIIND,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+PIIND|Standalone|Check 3: restatement,PI Industries Ltd.,PIIND,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+POWERGRID|Consolidated|Check 3: restatement,Power Grid Corporation of India Ltd.,POWERGRID,Large (Nifty 50),Check 3: restatement,Consolidated,0,0
+POWERGRID|Standalone|Check 3: restatement,Power Grid Corporation of India Ltd.,POWERGRID,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+PREMIERENE|Consolidated|Check 3: restatement,Premier Energies Ltd.,PREMIERENE,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+PREMIERENE|Standalone|Check 3: restatement,Premier Energies Ltd.,PREMIERENE,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+PRESTIGE|Consolidated|Check 3: restatement,Prestige Estates Projects Ltd.,PRESTIGE,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+PRESTIGE|Standalone|Check 3: restatement,Prestige Estates Projects Ltd.,PRESTIGE,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+RUBICON|Consolidated|Check 3: restatement,Rubicon Research Ltd.,RUBICON,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+RUBICON|Standalone|Check 3: restatement,Rubicon Research Ltd.,RUBICON,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+SWIGGY|Consolidated|Check 3: restatement,Swiggy Ltd.,SWIGGY,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+SWIGGY|Standalone|Check 3: restatement,Swiggy Ltd.,SWIGGY,Mid (Midcap 150),Check 3: restatement,Standalone,1,5
+TECHM|Consolidated|Check 3: restatement,Tech Mahindra Ltd.,TECHM,Large (Nifty 50),Check 3: restatement,Consolidated,1,2
+TECHM|Standalone|Check 3: restatement,Tech Mahindra Ltd.,TECHM,Large (Nifty 50),Check 3: restatement,Standalone,0,0
+TIINDIA|Consolidated|Check 3: restatement,Tube Investments of India Ltd.,TIINDIA,Mid (Midcap 150),Check 3: restatement,Consolidated,0,0
+TIINDIA|Standalone|Check 3: restatement,Tube Investments of India Ltd.,TIINDIA,Mid (Midcap 150),Check 3: restatement,Standalone,1,1
+TRENT|Consolidated|Check 3: restatement,Trent Ltd.,TRENT,Large (Nifty 50),Check 3: restatement,Consolidated,1,1
+TRENT|Standalone|Check 3: restatement,Trent Ltd.,TRENT,Large (Nifty 50),Check 3: restatement,Standalone,1,1
+UNITDSPR|Consolidated|Check 3: restatement,United Spirits Ltd.,UNITDSPR,Mid (Midcap 150),Check 3: restatement,Consolidated,1,5
+UNITDSPR|Standalone|Check 3: restatement,United Spirits Ltd.,UNITDSPR,Mid (Midcap 150),Check 3: restatement,Standalone,0,0
+VEDPOWER|Consolidated|Check 3: restatement,Vedanta Power Ltd.,VEDPOWER,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+VEDPOWER|Standalone|Check 3: restatement,Vedanta Power Ltd.,VEDPOWER,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+VISL|Consolidated|Check 3: restatement,Vedanta Iron and Steel Ltd.,VISL,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+VISL|Standalone|Check 3: restatement,Vedanta Iron and Steel Ltd.,VISL,Small (Smallcap 250),Check 3: restatement,Standalone,0,0
+WELSPUNLIV|Consolidated|Check 3: restatement,Welspun Living Ltd.,WELSPUNLIV,Small (Smallcap 250),Check 3: restatement,Consolidated,0,0
+WELSPUNLIV|Standalone|Check 3: restatement,Welspun Living Ltd.,WELSPUNLIV,Small (Smallcap 250),Check 3: restatement,Standalone,0,0

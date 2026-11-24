@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS filings (
     revision_remarks  TEXT,                      -- the company's own explanation, copied as written
     unit_reported     TEXT NOT NULL CHECK (unit_reported IN ('rupees', 'thousands', 'lakhs', 'millions', 'crores')),
     filing_date       TEXT NOT NULL,             -- YYYY-MM-DD
+    filed_at          TEXT,                      -- exchange timestamp, YYYY-MM-DD HH:MM:SS (used by check 2)
     link              TEXT NOT NULL,             -- where the file was downloaded from
     local_file        TEXT,                      -- path under data/raw/
     reporting_type    TEXT,                      -- XBRL TypeOfReportingPeriod as filed ('Quarterly', 'Half Yearly', ...)

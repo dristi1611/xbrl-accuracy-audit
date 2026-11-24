@@ -4,7 +4,7 @@ When a listed company files its quarterly results, do the machine-readable XBRL 
 
 Data firms and banks load XBRL straight into their databases, so a wrong unit or sign in the XBRL reaches every analyst downstream. This project reconciles the XBRL and PDF versions of Q2 FY27 (July to September 2026) results for a random sample of NSE-listed companies. It sorts every gap by root cause and logs each one as an exception.
 
-**Status:** checks 1 to 3 run on all 40 companies. Every extracted PDF value is either confirmed by an XBRL figure or checked by eye. Publishing on 13 Dec 2026.
+**Status:** complete. Checks 1 to 3 run on all 40 companies, and every extracted PDF value is either confirmed by an XBRL figure or checked by eye. The one-page write-up is [WRITEUP.md](WRITEUP.md). Publishing on 13 Dec 2026.
 
 ## Sample
 
@@ -56,7 +56,7 @@ What the pattern says:
 
 ### Check 2: revisions
 
-8 revised XBRL files from 4 companies across the three quarters downloaded (`output/check2_revisions.csv`). Adani Ports, Prestige and Rubicon filed revisions within 20 minutes of the original, with no stated reason and no changed facts. Laurus Labs revised both Q2 FY26 files 92 days later ("incorrect selection of Reporting Type"). The original consolidated file was "Half Yearly", and the original standalone file is truncated, invalid XML as NSE serves it (checked with three downloads).
+8 revised XBRL files from 4 companies across the three quarters downloaded. `sql/check2_revisions.sql` compares the 9 line items (`output/check2_revisions_sql.csv`); `scripts/run_check2.py` compares every fact in the two XML files (`output/check2_revisions.csv`). The two agree. Adani Ports, Prestige and Rubicon filed revisions within 20 minutes of the original, with no stated reason and no changed facts. Laurus Labs revised both Q2 FY26 files 92 days later ("incorrect selection of Reporting Type"). The original consolidated file was "Half Yearly", and the original standalone file is truncated, invalid XML as NSE serves it (checked with three downloads).
 
 ### Check 3: restatements
 
@@ -83,7 +83,7 @@ Results PDFs are not part of the integrated filing record. They come from the bo
 
 Answered during week 1 (23 to 29 Nov 2026):
 
-1. Are the NSE and BSE copies of the same filing identical? _TBD_
+1. Are the NSE and BSE copies of the same filing identical? Not tested. The audit uses NSE copies only (see Data and limits).
 2. Does the NSE site block scripted downloads? From outside a browser, yes: plain scripted requests are refused. Inside a normal browser session, NSE's own listing feeds (`/api/integrated-filing-results`, `/api/corporate-announcements`) return every filing with its file links and timestamps. That is how the pilot file list in `data/download_log_pilot.csv` was built.
 3. How does the XBRL mark units (the rounding field and the decimals attribute)? Every XBRL value is in full rupees. `LevelOfRounding` (Crores, Lakhs or Millions in the pilot) records the unit the company reports in, and each fact's `decimals` attribute records its precision (-5 = to the nearest ₹1 lakh). The parser reads the raw .xml, not the web view.
 4. How are revised filings listed, and does the original stay visible? A revision is a separate row marked "Revision" with its own timestamp and an optional remarks field. The original stays listed next to it.
@@ -101,21 +101,31 @@ Answered during week 1 (23 to 29 Nov 2026):
 ## Data and limits
 
 - Public data only: exchange filings and company websites. Each figure keeps its filing link and filing date.
-- Results describe this sample. A gap between two versions of a figure is a data-quality finding, not a statement that any company acted wrongly.
+- Results describe this sample: 40 companies and one quarter. The size-group pattern (small companies highest, mid-size lowest) may not hold more widely.
+- Financial-services companies are excluded because they file in a different format.
+- NSE copies only; BSE copies were not compared.
+- A gap between two versions of a figure is a data-quality finding, not a statement that any company acted wrongly.
 
 ## Layout
 
 ```
-scripts/   draw_sample.py, parse_xbrl.py, check_pdf_arithmetic.py, load.py, run_check1.py, run_check2.py,
-           run_check3.py, build_error_log.py, build_eye_check_list.py
-sql/       schema.sql, check1_xbrl_vs_pdf.sql, check3_restatements.sql (check 2 compares XML files directly)
-data/      index_lists/, sample.csv, download_log_pilot.csv, download_log_full.csv, tag_map.csv, pdf_extract/,
-           raw/ (XBRL .xml; PDFs linked in the download logs)
-output/    check1_*.csv, check2_revisions.csv, check3_*.csv, error_log.csv, pdf_arithmetic_checks.csv,
-           eye_check_list.csv (pilot), eye_check_list_full.csv (full run)
+WRITEUP.md  the one-page write-up
+scripts/    draw_sample.py, parse_xbrl.py, check_pdf_arithmetic.py, load.py, run_check1.py, run_check2.py,
+            run_check2_sql.py, run_check3.py, build_error_log.py, build_eye_check_list.py, make_charts.py,
+            build_dashboard_data.py
+sql/        schema.sql, check1_xbrl_vs_pdf.sql, check2_revisions.sql, check3_restatements.sql
+data/       index_lists/, sample.csv, download_log_pilot.csv, download_log_full.csv, tag_map.csv, pdf_extract/,
+            raw/ (XBRL .xml; PDFs linked in the download logs), audit.db (SQLite, all tables)
+output/     check1_*.csv, check2_revisions*.csv, check3_*.csv, error_log.csv, pdf_arithmetic_checks.csv,
+            eye_check_list.csv (pilot), eye_check_list_full.csv (full run), chart1_*.png, chart2_*.png
+dashboard/  exceptions.csv, statements.csv, POWERBI_STEPS.md, the Power BI file and screenshots
 
-Rebuild everything:
+Downloads were made in a normal browser session from NSE's listing feeds (see pilot-week finding 2);
+every file's link and timestamp is in the download logs.
+
+Rebuild everything from data/raw and data/pdf_extract:
   python scripts/parse_xbrl.py && python scripts/check_pdf_arithmetic.py && python scripts/load.py
-  python scripts/run_check1.py && python scripts/run_check2.py && python scripts/run_check3.py
-  python scripts/build_error_log.py && python scripts/build_eye_check_list.py
+  python scripts/run_check1.py && python scripts/run_check2.py && python scripts/run_check2_sql.py
+  python scripts/run_check3.py && python scripts/build_error_log.py && python scripts/build_eye_check_list.py
+  python scripts/make_charts.py && python scripts/build_dashboard_data.py
 ```

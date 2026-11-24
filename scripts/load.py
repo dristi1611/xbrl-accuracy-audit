@@ -19,6 +19,7 @@ Run from the repository root:
 """
 
 import csv
+from datetime import datetime
 import sqlite3
 from pathlib import Path
 
@@ -61,10 +62,17 @@ def main():
     log = {r["local_file"]: r for name in ("download_log_pilot.csv", "download_log_full.csv")
            for r in read(DATA / name)}
 
+    def filed_at(file):
+        d = log[file]["exchange_datetime"].title()         # e.g. 28-Oct-2026 19:42:10 (PDFs: no seconds)
+        for fmt in ("%d-%b-%Y %H:%M:%S", "%d-%b-%Y %H:%M", "%d-%b-%Y"):
+            try:
+                return datetime.strptime(d, fmt)
+            except ValueError:
+                pass
+        raise ValueError(f"unreadable exchange time {d!r} for {file}")
+
     def filing_date(file):
-        d = log[file]["exchange_datetime"][:11]           # e.g. 28-Oct-2026
-        from datetime import datetime
-        return datetime.strptime(d.title(), "%d-%b-%Y").date().isoformat()
+        return filed_at(file).date().isoformat()
 
     # XBRL filings and figures
     xfilings = read(DATA / "xbrl_filings.csv")
@@ -78,13 +86,21 @@ def main():
     for r in xfilings:
         unit = XBRL_UNIT.get(r["level_of_rounding"]) or usual_unit[r["symbol"]]
         cur = con.execute(
-            """INSERT INTO filings (company_id, source, exchange, basis, quarter, is_revision,
-                                    unit_reported, filing_date, link, local_file, reporting_type, well_formed)
-               VALUES (?, 'xbrl', 'NSE', ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            """INSERT INTO filings (company_id, source, exchange, basis, quarter, is_revision, revision_remarks,
+                                    unit_reported, filing_date, filed_at, link, local_file, reporting_type, well_formed)
+               VALUES (?, 'xbrl', 'NSE', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (company_id[r["symbol"]], r["basis"], r["quarter"], int(r["submission"] == "revision"),
-             unit, filing_date(r["file"]), log[r["file"]]["link"], "data/raw/" + r["file"],
-             r["type_of_reporting_period"] or None, r["well_formed"]))
+             (log[r["file"]].get("revision_remarks") or None) if r["submission"] == "revision" else None,
+             unit, filing_date(r["file"]), filed_at(r["file"]).isoformat(" "), log[r["file"]]["link"],
+             "data/raw/" + r["file"], r["type_of_reporting_period"] or None, r["well_formed"]))
         filing_id[r["file"]] = (cur.lastrowid, unit)
+
+    # Link each revision to the original it replaces (same company, basis and quarter).
+    con.execute("""UPDATE filings SET revises_filing_id = (
+                       SELECT o.filing_id FROM filings o
+                       WHERE o.company_id = filings.company_id AND o.basis = filings.basis
+                         AND o.quarter = filings.quarter AND o.source = 'xbrl' AND o.is_revision = 0)
+                   WHERE source = 'xbrl' AND is_revision = 1""")
 
     for r in read(DATA / "xbrl_figures.csv"):
         fid, unit = filing_id[r["file"]]

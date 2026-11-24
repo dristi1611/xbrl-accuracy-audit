@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 data/raw/*.pdf
 *.db
+!data/audit.db

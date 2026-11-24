@@ -1,4 +1,4 @@
-symbol,basis,line_item,column_period,value_as_printed,unit,page_and_note,claude_second_read,checked_by_eye
+symbol,basis,line_item,column_period,value_as_printed,unit,page_and_note,second_read,checked_by_eye
 ADANIPORTS,consolidated,basic_eps,preceding_quarter,15.71,crores,page 12; basic and diluted shown as one line,second read: visual re-read of page image,"Y (Dristi, 23 Nov 2026)"
 ADANIPORTS,consolidated,exceptional_items,preceding_quarter,0.0,crores,"page 12; printed as (30.76) and added in 'PBT (5+6)', i.e. a loss",second read: visual re-read of page image,"Y (Dristi, 23 Nov 2026)"
 ADANIPORTS,consolidated,net_profit,preceding_quarter,3649.5,crores,page 12,second read: OCR/text-layer row match,"Y (Dristi, 23 Nov 2026)"

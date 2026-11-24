@@ -41,6 +41,6 @@ No scale or sign errors turned up. The XBRL stores every value in full rupees, a
 - Every finding describes a difference between two published versions of a figure. Nothing here says that any company acted wrongly.
 - Only NSE copies were checked; whether BSE copies are identical was not tested.
 
-## How AI was used and how each value was checked
+## How I used AI, and how each value was checked
 
-An AI tool (Claude) drafted the scripts and SQL and read the results tables from the PDFs into CSV files with page numbers. Every extracted statement passes two arithmetic checks (income and profit before tax add up). Of 2,596 extracted values, 2,076 equal an XBRL figure, an independent source. The other 520 each got a second read and then my check by eye. The AI tool also proposed a category and note for each exception; each one was checked against the raw XBRL and the PDF. All three checks are SQL queries over one SQLite database, and the repository rebuilds every number from the raw files.
+I used Claude, an AI assistant, to draft the scripts and SQL and to read the results tables out of the PDFs, with a page number for every value. Every extracted statement passes two sums (income, and profit before tax). Of 2,596 extracted values, 2,076 equal an XBRL figure, which is an independent source; the other 520 got a second read and then my own check by eye. The AI also suggested a cause for each exception, and I checked each one against the raw XBRL and the PDF. All three checks are SQL queries over one SQLite database, and the repository rebuilds every number from the raw files.
